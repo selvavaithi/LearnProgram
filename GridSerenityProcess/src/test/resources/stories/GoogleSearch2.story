@@ -4,6 +4,7 @@ I want to test the validation of the Registration page
 
 Scenario: This was from Grid2
 Given I go to PCH website
+Then I search hotels that are near Softcrylic chennai
 When I click on the registration button
 Then I should present in registration page
 And I click on the registration submit button

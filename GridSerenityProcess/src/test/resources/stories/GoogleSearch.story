@@ -4,11 +4,11 @@ I want to test the validation of the Registration page
 
 Scenario: empty validate the pch registration page
 Given I go to PCH website
+Then I search hotels that are near Softcrylic chennai
 When I click on the registration button
 Then I should present in registration page
 And I click on the registration submit button
 Then Verify the registration page validation error message
-Then I search hotels that are near Softcrylic chennai
 
 Scenario: Validate the pch registration page error message for First and Last name
 Given I go to PCH website
