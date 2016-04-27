@@ -1,0 +1,19 @@
+package com.serenityjbehave.grid.PageObject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.lift.HamcrestWebDriverTestCase;
+
+public class PCHregisterPagePageObject extends MyPageObjects {
+
+	public void ClickOnTheRegistrationButton() {
+		register_btn.waitUntilClickable().click();
+	}
+
+	public void IShouldPresentInRegistrationPage() {
+
+		reg_submit_btn.waitUntilClickable();
+		
+		
+	}
+
+}

@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.serenitybdd.jbehave.SerenityStories"/>
+<fullyQualifiedTypeName name="net.thucydides.core.annotations.Steps"/>
+<fullyQualifiedTypeName name="net.thucydides.core.annotations.ManagedPages"/>
+<fullyQualifiedTypeName name="net.serenitybdd.core.pages.PageObject"/>
+</qualifiedTypeNameHistroy>

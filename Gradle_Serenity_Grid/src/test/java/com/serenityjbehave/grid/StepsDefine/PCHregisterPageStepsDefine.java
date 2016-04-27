@@ -19,6 +19,7 @@ public class PCHregisterPageStepsDefine {
 
 	@When("I click on the registration button")
 	public void whenIClickOnTheRegistrationButton() {
+		pchregisterpagesteps.ClickOnTheRegistrationButton();
 	}
 
 	@Then("Verify the registration page validation error message")
@@ -27,6 +28,7 @@ public class PCHregisterPageStepsDefine {
 
 	@Given("I go to PCH website")
 	public void givenIGoToPCHWebsite() {
+		pchregisterpagesteps.openURL();
 	}
 
 	@Then("I click on the registration submit button")
@@ -35,6 +37,7 @@ public class PCHregisterPageStepsDefine {
 
 	@Then("I should present in registration page")
 	public void thenIShouldPresentInRegistrationPage() {
+		pchregisterpagesteps.IShouldPresentInRegistrationPage();
 	}
 
 	@Then("Verify the registration page validation error message is withour first and last name")

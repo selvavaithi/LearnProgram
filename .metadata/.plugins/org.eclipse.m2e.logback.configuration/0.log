@@ -1,1 +1,24 @@
 2016-04-26 12:29:00,773 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2016-04-27 12:36:24,732 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2016-04-27 16:33:03,781 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2016-04-27 17:46:48,580 [Worker-39] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.test.serenitygrid:GridSerenityProcess:0.0.1-SNAPSHOT @ D:\Mine\GitHub\GridSerenityProcess\pom.xml.
+2016-04-27 17:46:50,505 [Worker-39] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GridSerenityProcess/src/main/java
+2016-04-27 17:46:50,506 [Worker-39] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GridSerenityProcess/src/test/java
+2016-04-27 17:46:50,506 [Worker-39] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /GridSerenityProcess/src/test/resources
+2016-04-27 17:46:52,485 [Worker-39] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2016-04-27 17:46:54,107 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-27 17:46:54,107 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Mine\GitHub\GridSerenityProcess\src\main\resources
+2016-04-27 17:46:54,108 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-27 17:46:54,113 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-04-27 17:47:10,435 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-27 17:47:10,435 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Mine\GitHub\GridSerenityProcess\src\main\resources
+2016-04-27 17:47:10,436 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-27 17:47:10,436 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-04-27 17:47:18,286 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-27 17:47:18,287 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Mine\GitHub\GridSerenityProcess\src\main\resources
+2016-04-27 17:47:18,287 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-27 17:47:18,288 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-04-27 17:47:51,095 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-27 17:47:51,096 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Mine\GitHub\GridSerenityProcess\src\main\resources
+2016-04-27 17:47:51,097 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-27 17:47:51,101 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources

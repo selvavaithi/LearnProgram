@@ -1,0 +1,61 @@
+<acceptance-test-run title="empty validate the pch registration page" name="empty validate the pch registration page" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="10011" timestamp="2016-04-25T20:07:19.154+05:30" session-id="97821310-17e1-4003-96d2-43a271effbbd">
+  <user-story id="GoogleSearch" name="Google search" path="stories/GoogleSearch.story"/>
+  <tags>
+    <tag name="Google search" type="story"/>
+  </tags>
+  <test-group name="Given I go to PCH website" result="SUCCESS">
+    <screenshots>
+      <screenshot image="29802128096a98e47603456a045a8b35.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="4725">
+      <screenshots>
+        <screenshot image="454d11dcf11274f1c4890fd81b1fa623.png"/>
+      </screenshots>
+      <description>Open PC hurl</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I click on the registration button" result="SUCCESS">
+    <screenshots>
+      <screenshot image="db1210e01988fe1ea2fd364b6d7f2f9c.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="415">
+      <screenshots>
+        <screenshot image="db1210e01988fe1ea2fd364b6d7f2f9c.png"/>
+      </screenshots>
+      <description>Click on register button</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I should present in registration page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="eac6971d65df95d05a8a9e8b5bdbaa95.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="417">
+      <screenshots>
+        <screenshot image="7dcf4b5ba444d6af1682bc76a0dfe118.png"/>
+      </screenshots>
+      <description>Verify page is registration</description>
+    </test-step>
+  </test-group>
+  <test-group name="And I click on the registration submit button" result="SUCCESS">
+    <screenshots>
+      <screenshot image="1625e9fae6d3ba7e1bc714fc544a77e0.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="510">
+      <screenshots>
+        <screenshot image="30dadc65089d70815c549ef7824fce0d.png"/>
+      </screenshots>
+      <description>Click register submit btn</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then Verify the registration page validation error message" result="SUCCESS">
+    <screenshots>
+      <screenshot image="557bd4cfd69e62943199fa89780b151f.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="458">
+      <screenshots>
+        <screenshot image="557bd4cfd69e62943199fa89780b151f.png"/>
+      </screenshots>
+      <description>Verify register page error messgae</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

@@ -576,3 +576,590 @@ org.eclipse.core.runtime.OperationCanceledException
 
 !ENTRY org.jbehave.eclipse 1 0 2016-04-27 13:23:16.930
 !MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:15:52.620
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@5467cd94
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:15:52.621
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:16:02.419
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@77ef0074
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:16:02.420
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:16:10.510
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@30e006b5
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:16:10.510
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:16:17.664
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@52c27fa2
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:16:17.664
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:16:25.520
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@3f5f5549
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:16:25.521
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:16:33.927
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@6247d3d4
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:16:33.928
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:28:36.350
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@2586cca
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:28:36.350
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:29:50.182
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@2552a6fc
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:29:50.183
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:29:58.324
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@5f2e2b9e
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:29:58.324
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:30:05.479
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@681f3b7e
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:30:05.479
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:30:13.524
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@733028e5
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:30:13.525
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:30:20.877
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@73bc06d6
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:30:20.878
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:30:28.994
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@125964b1
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:30:28.995
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:44:33.963
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@543109d1
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:44:33.964
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:44:42.120
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@3f705d82
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 14:44:42.121
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+!SESSION 2016-04-27 16:32:59.405 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_31
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data D:\Mine\GitHub -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2016-04-27 16:33:02.702
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-27 16:33:02.702
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2220c5f7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5bb90b89,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-27 16:33:02.702
+!MESSAGE A conflict occurred for ALT+SHIFT+X G:
+Binding(ALT+SHIFT+X G,
+	ParameterizedCommand(Command(org.testng.eclipse.shortcut.testngSuite.run,Run TestNG Suite,
+		Run TestNG Suite,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10b0dd3a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X G,
+	ParameterizedCommand(Command(org.codehaus.groovy.eclipse.groovyScriptLaunchShortcut.run,Run Groovy Script,
+		Run Groovy Script,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c231f62,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-27 16:33:02.702
+!MESSAGE A conflict occurred for ALT+SHIFT+D G:
+Binding(ALT+SHIFT+D G,
+	ParameterizedCommand(Command(org.testng.eclipse.shortcut.testngSuite.debug,Debug TestNG Suite,
+		Debug TestNG Suite,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6888746c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D G,
+	ParameterizedCommand(Command(org.codehaus.groovy.eclipse.groovyScriptLaunchShortcut.debug,Debug Groovy Script,
+		Debug Groovy Script,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7bfedfb7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-04-27 16:33:05.514
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\selvav'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:34:55.618
+!MESSAGE Storing logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:34:55.618
+!MESSAGE Resetting log levels
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:34:55.619
+!MESSAGE Loading logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:34:55.620
+!MESSAGE About to define #2loggers
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:34:55.620
+!MESSAGE Defining logger <org.jbehave> at level <INFO>
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:34:55.620
+!MESSAGE Defining logger <org.jbehave.eclipse.editor.story.completion> at level <DEBUG>
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:34:55.630
+!MESSAGE Resetting log levels
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:34:55.630
+!MESSAGE Loading logger settings: [org.jbehave:INFO;org.jbehave.eclipse.editor.story.completion:DEBUG;]
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:34:55.631
+!MESSAGE About to define #2loggers
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:34:55.631
+!MESSAGE Defining logger <org.jbehave> at level <INFO>
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:34:55.631
+!MESSAGE Defining logger <org.jbehave.eclipse.editor.story.completion> at level <DEBUG>
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:34:55.632
+!MESSAGE Log file at D:\Mine\GitHub\.metadata\.plugins\org.jbehave.eclipse\plugin.log
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:34:55.679
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@14e79d6
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:34:55.680
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:35:04.365
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@322a080e
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:35:04.367
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:35:12.693
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@25d1aacf
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:35:12.695
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:35:20.874
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@5ecd39cf
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:35:20.875
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:35:32.149
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@57a1e2ee
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:35:32.149
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:35:40.190
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@666c0d6f
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:35:40.190
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:35:48.559
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@3ed0d347
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:35:48.560
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:35:56.755
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@5eeba6a2
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:35:56.755
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:36:05.596
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@3d247a5d
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:36:05.597
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:36:16.141
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@76271cc9
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:36:16.142
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:36:24.445
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@164fad96
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:36:24.446
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:36:32.454
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@578e0d48
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:36:32.455
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:36:40.406
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@5fe46b16
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:36:40.407
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:36:47.187
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@52a51ad8
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:36:47.187
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:36:55.465
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@3c48ddea
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:36:55.465
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:37:04.096
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@2a396f5c
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:37:04.097
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:38:58.174
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@258a5f45
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:38:58.175
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:39:06.700
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@486e32de
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:39:06.700
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:39:15.079
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@2df7e4ee
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:39:15.080
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:39:22.566
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@7b6678d3
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:39:22.567
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:39:30.634
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@49f4f2ec
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:39:30.634
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:39:40.658
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@6aee56fd
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:39:40.659
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:40:07.377
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@1598ee0
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:40:07.378
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:40:16.831
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@53b53c47
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:40:16.831
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:40:28.315
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@3971c15e
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:40:28.315
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:40:44.451
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@53fb8dd5
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:40:44.452
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:41:21.900
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@7b7b9d8e
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:41:21.900
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:42:18.236
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@75920fdb
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:42:18.236
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:43:14.755
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@54aec30d
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:43:14.755
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:43:23.433
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@676d11b2
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:43:23.434
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:43:31.510
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@796d15c2
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:43:31.510
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:43:39.808
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@33384050
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:43:39.809
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:43:48.480
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@7ad13e58
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:43:48.481
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:45:15.218
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@7c34aa80
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:45:15.219
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:45:23.850
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@109c24b5
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:45:23.850
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:45:55.839
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@2d2caea8
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:45:55.840
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:46:03.937
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@399619bd
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:46:03.937
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:46:12.067
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@197179f9
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:46:12.068
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:46:47.075
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@474cc85f
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:46:47.076
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:47:04.087
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@224564d7
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:47:04.087
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:47:11.664
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@2abee65f
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:47:11.664
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:47:19.694
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@29788d7d
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:47:19.694
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:47:27.814
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@55b731d4
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:47:27.815
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:47:35.061
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@537755e
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:47:35.062
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:47:43.358
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@4ee917ae
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:47:43.359
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:48:01.403
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@3956abc8
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:48:01.404
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:48:10.401
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@1290d6c7
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:48:10.402
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:48:18.928
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@43bde26e
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:48:18.929
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:48:27.583
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@1b8baae4
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:48:27.584
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:48:36.675
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@4b37fa43
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:48:36.675
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:48:46.013
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@25de9bb6
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:48:46.014
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:48:55.737
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@7e33c7ff
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:48:55.738
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:49:06.259
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@39659032
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:49:06.259
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:49:17.766
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@29bddc5c
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:49:17.766
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:49:31.296
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@12a4830f
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:49:31.296
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:51:54.789
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@3a153450
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:51:54.790
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:52:13.993
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@6b629b47
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:52:13.993
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:52:36.601
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@48842c9b
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:52:36.602
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:55:53.192
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@6ff2e0ac
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:55:53.193
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:56:25.918
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@6053137b
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:56:25.919
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:57:07.539
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@44b9e9bf
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 16:57:07.540
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 17:04:14.119
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@6083ae49
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 17:04:14.120
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 17:05:38.435
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@292dd488
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 17:05:38.436
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 17:31:18.649
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@4796fcb1
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 17:31:18.650
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 17:47:35.034
+!MESSAGE MarkingStoryValidator: Validating: fj.data.List$Cons@64ba411b
+
+!ENTRY org.jbehave.eclipse 1 0 2016-04-27 17:47:35.035
+!MESSAGE MarkingStoryValidator: Awaiting termination of validation

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Google search" skipped="0" tests="2" time="17.99" timestamp="2016-04-116 08:07:19"><testcase name="empty validate the pch registration page"/><testcase name="Validate the pch registration page error message for First and Last name"/></testsuite>

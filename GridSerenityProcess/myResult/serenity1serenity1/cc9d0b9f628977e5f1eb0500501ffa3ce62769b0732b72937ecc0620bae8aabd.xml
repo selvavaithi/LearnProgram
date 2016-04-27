@@ -1,0 +1,67 @@
+<acceptance-test-run title="Validate the pch registration page error message for First and Last name" name="Validate the pch registration page error message for First and Last name" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="7976" timestamp="2016-04-25T20:07:29.202+05:30" session-id="97821310-17e1-4003-96d2-43a271effbbd">
+  <user-story id="GoogleSearch" name="Google search" path="stories/GoogleSearch.story"/>
+  <tags>
+    <tag name="Google search" type="story"/>
+  </tags>
+  <test-group name="Given I go to PCH website" result="SUCCESS">
+    <screenshots>
+      <screenshot image="4da1754c5b59999cb4d39af320dd2e94.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2602">
+      <screenshots>
+        <screenshot image="d0a2ed54c047edabf5f5861e2e0c4b73.png"/>
+      </screenshots>
+      <description>Open PC hurl</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I click on the registration button" result="SUCCESS">
+    <screenshots>
+      <screenshot image="1ace260a1b93ccfa94aba59ed34cb417.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="484">
+      <screenshots>
+        <screenshot image="55001955f9b114172f71879517b015a3.png"/>
+      </screenshots>
+      <description>Click on register button</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I should present in registration page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2e4c70f6b0312e3fc78e56a989176c95.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="440">
+      <screenshots>
+        <screenshot image="2e4c70f6b0312e3fc78e56a989176c95.png"/>
+      </screenshots>
+      <description>Verify page is registration</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I enter value for first and last name as {My first name} and {My last name} respectively" result="SUCCESS">
+    <screenshots>
+      <screenshot image="c2854575f50363db98ad89e3bb576e6a.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="405">
+      <screenshots>
+        <screenshot image="c2854575f50363db98ad89e3bb576e6a.png"/>
+      </screenshots>
+      <description>Enter f nand LN: &lt;span class=&apos;step-parameter&apos;&gt;My first name, My last name&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="And I click on the registration submit button" result="SUCCESS">
+    <screenshots>
+      <screenshot image="9b659ed0baa0fd6e117a3576ca8ecfb4.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="406">
+      <screenshots>
+        <screenshot image="8bba163867e80e7dda634c5929f6415a.png"/>
+      </screenshots>
+      <description>Click register submit btn</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="853">
+    <screenshots>
+      <screenshot image="5001aae399fcf2f2ab784c4bfdc64b14.png"/>
+    </screenshots>
+    <description>Then Verify the registration page validation error message is withour first and last name</description>
+  </test-step>
+</acceptance-test-run>
