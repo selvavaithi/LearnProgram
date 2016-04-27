@@ -1,7 +1,0 @@
-package com.serenityjbehave.grid.PageObject;
-
-import net.serenitybdd.core.pages.PageObject;
-
-public class MyPageObjects extends PageObject{
-
-}

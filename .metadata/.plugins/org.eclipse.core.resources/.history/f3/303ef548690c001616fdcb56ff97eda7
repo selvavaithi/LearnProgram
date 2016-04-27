@@ -1,2 +1,0 @@
-webdriver.base.url=http://www.pch.com/
-webdriver.remote.url=http://localhost:4444/wd/hub
