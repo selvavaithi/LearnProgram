@@ -6,7 +6,7 @@ import net.thucydides.core.annotations.ManagedPages;
 import net.thucydides.core.annotations.Step;
 
 public class GridSerenityProcessStepspages {
-	
+
 	@ManagedPages
 	GridSerenityProcesspageObject gridserenityprocesspageobject;
 
@@ -17,31 +17,36 @@ public class GridSerenityProcessStepspages {
 
 	@Step
 	public void clickOnRegisterButton() {
-	//	gridserenityprocesspageobject.clickRegisterBtn();
+		// gridserenityprocesspageobject.clickRegisterBtn();
 	}
 
 	@Step
 	public void verifyPageIsRegistration() {
-	//	gridserenityprocesspageobject.verifyRegisterpage();
+		// gridserenityprocesspageobject.verifyRegisterpage();
 
 	}
 
 	@Step
 	public void clickRegisterSubmitBtn() {
-	//	gridserenityprocesspageobject.click_register_submit_btn();
+		// gridserenityprocesspageobject.click_register_submit_btn();
 
 	}
 
 	@Step
 	public void VerifyRegisterPageErrorMessgae() {
-		//gridserenityprocesspageobject.verify_register_validation_error_msg();
+		// gridserenityprocesspageobject.verify_register_validation_error_msg();
 	}
 
 	@Step
 	public void EnterFNandLN(String myfirstname, String mylastname) {
-		//gridserenityprocesspageobject.enterFirstName(myfirstname);
-		//gridserenityprocesspageobject.enterLastName(mylastname);
+		// gridserenityprocesspageobject.enterFirstName(myfirstname);
+		// gridserenityprocesspageobject.enterLastName(mylastname);
 	}
 
+	@Step
+	public void Isearchnearbyplacethatarenearplaces(String nearbyplace, String place) {
+		gridserenityprocesspageobject.getGeocodingfor(place);
+		gridserenityprocesspageobject.getNearByPlacesFor(nearbyplace);
+	}
 
 }

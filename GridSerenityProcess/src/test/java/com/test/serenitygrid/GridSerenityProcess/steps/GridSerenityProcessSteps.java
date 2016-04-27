@@ -1,6 +1,7 @@
 package com.test.serenitygrid.GridSerenityProcess.steps;
 
 import org.jbehave.core.annotations.Given;
+import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 
@@ -45,6 +46,14 @@ public class GridSerenityProcessSteps {
 
 	@Then("Verify the registration page validation error message is withour first and last name")
 	public void thenVerifyTheRegistrationPageValidationErrorMessageIsWithourFirstAndLastName() {
+	}
+
+	@Then("I search $nearbyplace that are near $place")
+	public void ThenIsearchnearbyplacethatarenearplaces(@Named("nearbyplace") String nearbyplace,
+			@Named("place") String place) {
+
+		gridserenityprocesspages.Isearchnearbyplacethatarenearplaces(nearbyplace, place);
+
 	}
 
 }
