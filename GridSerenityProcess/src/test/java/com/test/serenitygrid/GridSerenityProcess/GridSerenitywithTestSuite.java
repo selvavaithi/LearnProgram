@@ -10,6 +10,7 @@ public class GridSerenitywithTestSuite extends SerenityStories {
 
 	public GridSerenitywithTestSuite() {
 		super();
+		String dirPath = System.getProperty("user.dir");
 		/*
 		 * getSystemConfiguration().setIfUndefined(ThucydidesSystemProperty.
 		 * WEBDRIVER_REMOTE_URL.getPropertyName(),
@@ -25,7 +26,7 @@ public class GridSerenitywithTestSuite extends SerenityStories {
 		 * THUCYDIDES_OUTPUT_DIRECTORY.getPropertyName(), "/tooSee/serenity2");
 		 */
 		getSystemConfiguration().setIfUndefined(ThucydidesSystemProperty.THUCYDIDES_OUTPUT_DIRECTORY.getPropertyName(),
-				"D:/WorkSpace/MarsWorkSpace/GridSerenityProcess/target/site/serenity/");
+				dirPath + "/target/site/serenity/");
 		/*
 		 * getSystemConfiguration().setIfUndefined(ThucydidesSystemProperty.
 		 * THUCYDIDES_TAKE_SCREENSHOTS.getPropertyName(), "FOR_FAILURES");
@@ -34,7 +35,7 @@ public class GridSerenitywithTestSuite extends SerenityStories {
 
 	@Override
 	public List<String> storyPaths() {
-		return Arrays.asList("stories/GoogleSearch.story");
+		return Arrays.asList("stories/GoogleSearch2.story");
 	}
 
 	@Override

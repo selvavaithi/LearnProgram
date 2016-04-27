@@ -9,12 +9,15 @@ public class GridSerenityProcessTestSuite extends SerenityStories {
 
 	public GridSerenityProcessTestSuite() {
 		super();
+		
+		String dirPath = System.getProperty("user.dir");
+
 		/*
 		 * getSystemConfiguration().setIfUndefined(ThucydidesSystemProperty.
 		 * WEBDRIVER_REMOTE_URL.getPropertyName(),
 		 * "http://localhost:4444/wd/hub");
 		 */
-		
+
 		getSystemConfiguration().setIfUndefined(
 				ThucydidesSystemProperty.THUCYDIDES_DRIVER_CAPABILITIES.getPropertyName(), "browserName:firefox");
 
@@ -31,7 +34,7 @@ public class GridSerenityProcessTestSuite extends SerenityStories {
 		 */
 
 		getSystemConfiguration().setIfUndefined(ThucydidesSystemProperty.THUCYDIDES_OUTPUT_DIRECTORY.getPropertyName(),
-				"D:/WorkSpace/MarsWorkSpace/GridSerenityProcess/target/site/serenity/");
+				dirPath+"/target/site/serenity/");
 
 		/*
 		 * getSystemConfiguration().setIfUndefined(ThucydidesSystemProperty.
