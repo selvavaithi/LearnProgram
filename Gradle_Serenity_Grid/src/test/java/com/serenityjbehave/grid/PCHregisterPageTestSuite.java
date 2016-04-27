@@ -4,4 +4,8 @@ import net.serenitybdd.jbehave.SerenityStories;
 
 public class PCHregisterPageTestSuite extends SerenityStories {
 
+	public PCHregisterPageTestSuite() {
+
+	}
+
 }
