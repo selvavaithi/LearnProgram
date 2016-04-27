@@ -29,10 +29,6 @@ dependencies {
 	testCompile 'org.json:json:20160212'
 }
 
-test(type: test){
-	
-}
-
 test{ testLogging.showStandardStreams = true }
 
 gradle.startParameter.continueOnFailure = true

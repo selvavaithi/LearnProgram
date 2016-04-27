@@ -1,0 +1,12 @@
+package com.serenityjbehave.grid.Steps;
+
+import com.serenityjbehave.grid.PageObject.PCHregisterPagePageObject;
+
+import net.thucydides.core.annotations.ManagedPages;
+
+public class PCHregisterPageSteps {
+	
+	@ManagedPages
+	PCHregisterPagePageObject pchregisterpagepageobject;
+
+}

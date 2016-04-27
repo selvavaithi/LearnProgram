@@ -1,0 +1,40 @@
+package com.serenityjbehave.grid.StepsDefine;
+
+import org.jbehave.core.annotations.*;
+public class MySteps{
+	@Then("I enter value for first and last name as My first name and My last name respectively")
+	@Pending
+	public void thenIEnterValueForFirstAndLastNameAsMyFirstNameAndMyLastNameRespectively(){
+		 //TODO 
+	}
+	@When("I click on the registration button")
+	@Pending
+	public void whenIClickOnTheRegistrationButton(){
+		 //TODO 
+	}
+	@Then("Verify the registration page validation error message")
+	@Pending
+	public void thenVerifyTheRegistrationPageValidationErrorMessage(){
+		 //TODO 
+	}
+	@Given("I go to PCH website")
+	@Pending
+	public void givenIGoToPCHWebsite(){
+		 //TODO 
+	}
+	@Then("I click on the registration submit button")
+	@Pending
+	public void thenIClickOnTheRegistrationSubmitButton(){
+		 //TODO 
+	}
+	@Then("I should present in registration page")
+	@Pending
+	public void thenIShouldPresentInRegistrationPage(){
+		 //TODO 
+	}
+	@Then("Verify the registration page validation error message is withour first and last name")
+	@Pending
+	public void thenVerifyTheRegistrationPageValidationErrorMessageIsWithourFirstAndLastName(){
+		 //TODO 
+	}
+}
