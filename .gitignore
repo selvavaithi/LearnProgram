@@ -49,3 +49,5 @@ Temporary Items
 #Some of my unwanted file
 .metadata
 .recommenders
+*.snap
+*.gen
