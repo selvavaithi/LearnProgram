@@ -35,7 +35,9 @@ test{ testLogging.showStandardStreams = true }
 task runAParallelSuite(type: Test) {
 	// uncomment maxParallelForks if you prefer to use the Gradle process forker
 	// which also requires a complete change of how the suite class works
-	maxParallelForks = 2
+	def forks = 2;
+	println "maxParallelForks is $forks"
+	maxParallelForks = forks
 	include '**/**TestSuite**.class'
 	// testReportDir = file("${reporting.baseDir}/AParallelSuite")
 	// testResultsDir = file("${buildDir}/test-results/AParallelSuite")
