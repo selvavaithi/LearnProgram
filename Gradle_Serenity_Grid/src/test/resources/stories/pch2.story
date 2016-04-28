@@ -16,3 +16,18 @@ Then I should present in registration page
 Then I enter value for first and last name as My first name and My last name respectively
 And I click on the registration submit button
 Then Verify the registration page validation error message is withour first and last name
+
+Scenario: This is from Grid 2 This scenario will fail
+Given I go to PCH website
+When I click on the registration button
+Then Assert for fail
+
+Scenario: This is from Grid 2 This test has to be skipped
+Meta:
+@skip
+@ignored true
+Given I go to PCH website
+When I click on the registration button
+Then I should present in registration page
+Then I enter value for first and last name as My first name and My last name respectively
+And I click on the registration submit button
