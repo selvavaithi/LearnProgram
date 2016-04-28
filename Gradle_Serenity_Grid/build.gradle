@@ -31,4 +31,14 @@ dependencies {
 
 test{ testLogging.showStandardStreams = true }
 
+// runs a filtered test class with Gradle JUnit runner
+task runAParallelSuite(type: Test) {
+	// uncomment maxParallelForks if you prefer to use the Gradle process forker
+	// which also requires a complete change of how the suite class works
+	maxParallelForks = 2
+	include '**/**TestSuite**.class'
+	// testReportDir = file("${reporting.baseDir}/AParallelSuite")
+	// testResultsDir = file("${buildDir}/test-results/AParallelSuite")
+}
+
 gradle.startParameter.continueOnFailure = true
