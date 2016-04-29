@@ -30,16 +30,16 @@ dependencies {
 
 test{ testLogging.showStandardStreams = true }
 
-// runs a filtered test class with Gradle JUnit runner
+task myrun(type:Exec) {
+	commandLine 'cmd', '/c', 'gradle clean runAParallelSuite aggregate'
+}
+
+
 task runAParallelSuite(type: Test) {
-	// uncomment maxParallelForks if you prefer to use the Gradle process forker
-	// which also requires a complete change of how the suite class works
-	def forks = 2;
-	println "maxParallelForks is $forks"
-	maxParallelForks = forks
+	
+	maxParallelForks = 2
 	include '**/**TestSuite**.class'
-	// testReportDir = file("${reporting.baseDir}/AParallelSuite")
-	// testResultsDir = file("${buildDir}/test-results/AParallelSuite")
+	
 }
 
 gradle.startParameter.continueOnFailure = true
