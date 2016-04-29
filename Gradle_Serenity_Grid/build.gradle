@@ -38,9 +38,11 @@ task myrun(type:Exec) {
 //To run the parallel code.
 // runs a filtered test class with Gradle JUnit runner
 task runAParallelSuite(type: Test) {
+	def forks =2
+	println "Maximum parallel is $forks"
 	// uncomment maxParallelForks if you prefer to use the Gradle process forker
 	// which also requires a complete change of how the suite class works
-	maxParallelForks = 2
+	maxParallelForks = forks
 	include '**/**TestSuite**.class'
 	// testReportDir = file("${reporting.baseDir}/AParallelSuite")
 	// testResultsDir = file("${buildDir}/test-results/AParallelSuite")
