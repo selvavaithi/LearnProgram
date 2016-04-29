@@ -28,12 +28,11 @@ dependencies {
 	testCompile 'org.json:json:20160212'
 }
 
+// show standard out and standard error of the test JVM(s) on the console
 test{ testLogging.showStandardStreams = true }
 
 //To execute the command in the command prompt
-task myrun(type:Exec) {
-	commandLine 'cmd', '/c', 'gradle clean runAParallelSuite aggregate'
-}
+task myrun(type:Exec) { commandLine 'cmd', '/c', 'gradle clean runAParallelSuite aggregate' }
 
 //To run the parallel code.
 // runs a filtered test class with Gradle JUnit runner
