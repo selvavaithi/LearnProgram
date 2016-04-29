@@ -30,11 +30,12 @@ dependencies {
 
 test{ testLogging.showStandardStreams = true }
 
+//To execute the command in the command prompt
 task myrun(type:Exec) {
 	commandLine 'cmd', '/c', 'gradle clean runAParallelSuite aggregate'
 }
 
-
+//To run the parallel code.
 task runAParallelSuite(type: Test) {
 	
 	maxParallelForks = 2
