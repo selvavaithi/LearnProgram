@@ -28,6 +28,7 @@ dependencies {
 	testCompile 'org.json:json:20160212'
 }
 
+
 // show standard out and standard error of the test JVM(s) on the console
 test{ testLogging.showStandardStreams = true }
 
