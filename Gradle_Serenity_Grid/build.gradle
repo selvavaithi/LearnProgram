@@ -28,7 +28,12 @@ dependencies {
 	testCompile 'org.json:json:20160212'
 }
 
-
+//A SourceSet represents a logical group of Java source and resources
+sourceSets {
+	main {
+		java { exclude '**/Library.java' }
+	}
+}
 // show standard out and standard error of the test JVM(s) on the console
 test{ testLogging.showStandardStreams = true }
 
