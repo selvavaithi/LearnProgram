@@ -10,7 +10,7 @@ And I click on the registration submit button
 Then Verify the registration page validation error message
 
 Scenario: Validate the pch registration page error message for First and Last name
-Given I go to PCH website
+Given I am navigating to PCH website
 When I click on the registration button
 Then I should present in registration page
 Then I enter value for first and last name as My first name and My last name respectively
@@ -21,7 +21,7 @@ Scenario: This has to be ignored Validate the pch registration page error messag
 Meta:
 @skip
 @ignored true 
-Given I go to PCH website
+Given I log to PCH website
 When I click on the registration button
 Then I should present in registration page
 

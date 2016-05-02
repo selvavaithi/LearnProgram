@@ -1,5 +1,6 @@
 package com.serenityjbehave.grid.StepsDefine;
 
+import org.jbehave.core.annotations.Aliases;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.Then;
@@ -29,6 +30,7 @@ public class PCHregisterPageStepsDefine {
 	}
 
 	@Given("I go to PCH website")
+	@Aliases(values={"I log to PCH website","I am navigating to PCH website"})
 	public void givenIGoToPCHWebsite() {
 		pchregisterpagesteps.openURL();
 	}
