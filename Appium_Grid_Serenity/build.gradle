@@ -1,0 +1,31 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+repositories {
+	mavenLocal()
+	jcenter()
+}
+
+buildscript {
+	repositories {
+		mavenLocal()
+		jcenter()
+	}
+	dependencies { classpath("net.serenity-bdd:serenity-gradle-plugin:1.1.31") }
+}
+
+dependencies {
+	compile 'org.slf4j:slf4j-api:1.7.14'
+	testCompile 'junit:junit:4.12'
+	testCompile 'net.serenity-bdd:serenity-core:1.1.31'
+	testCompile 'net.serenity-bdd:serenity-jbehave:1.9.0'
+}
+
+test{
+	// show standard out and standard error of the test JVM(s) on the console
+	testLogging.showStandardStreams = true
+}
+
+gradle.startParameter.continueOnFailure = true

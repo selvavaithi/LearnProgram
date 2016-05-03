@@ -1,0 +1,48 @@
+<div class="story">
+<h1></h1>
+<div class="path">Stories/RealBucksStories/realbuckstory.story</div>
+<div class="scenario">
+<h2>Scenario: Enter an sample text in the Realbuck app</h2>
+<div class="step failed">Given I click on the text box <span class="keyword failed">(FAILED)</span><br/><span class="message failed">net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class io.appium.java_client.AppiumDriver</span></div>
+<div class="step notPerformed">When I enter my text <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then I should see the text inside the text box <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then I click on menu button <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And I verify the menu values <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then I click on menu button <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<pre class="failure">net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class io.appium.java_client.AppiumDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:131)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.setImplicitTimeout(WebDriverFacade.java:257)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElementImmediately(SmartAjaxElementLocator.java:109)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:91)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.isVisible(WebElementFacadeImpl.java:309)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.isCurrentlyVisible(WebElementFacadeImpl.java:344)
+	at net.serenitybdd.core.pages.RenderedPageObjectView$2.apply(RenderedPageObjectView.java:130)
+	at net.serenitybdd.core.pages.RenderedPageObjectView$2.apply(RenderedPageObjectView.java:127)
+	at net.thucydides.core.scheduling.ThucydidesFluentWait.until(ThucydidesFluentWait.java:60)
+	at net.serenitybdd.core.pages.RenderedPageObjectView.waitForElement(RenderedPageObjectView.java:114)
+	at net.serenitybdd.core.pages.RenderedPageObjectView.waitFor(RenderedPageObjectView.java:105)
+	at com.realbucks.test.pageobject.Realbuck_Register_PageObject.clickTextBox(Realbuck_Register_PageObject.java:49)
+	at com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules.clickOntextbox(RealBucks_RegisterPage_Modules.java:15)
+	at com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba.CGLIB$clickOntextbox$2(&lt;generated&gt;)
+	at com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba$$FastClassByCGLIB$$16ad6cd0.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:348)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:333)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:308)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:130)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:57)
+	at com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba.clickOntextbox(&lt;generated&gt;)
+	at com.realbucks.test.stepsdefine.RealBucksTestSteps.givenIClickOnTheTextBox(RealBucksTestSteps.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</pre>
+</div>
+</div>

@@ -1,0 +1,1104 @@
+<xref>
+  <stories>
+    <performableStory>
+      <story>
+        <path>Stories/RealBucksStories/realbuckstory.story</path>
+        <description>
+          <descriptionAsString></descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo></inOrderTo>
+          <asA></asA>
+          <iWantTo></iWantTo>
+          <soThat></soThat>
+        </narrative>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <lifecycle>
+          <before>
+            <steps class="java.util.Arrays$ArrayList">
+              <a class="string-array"/>
+            </steps>
+          </before>
+          <after/>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <title>Enter an sample text in the Realbuck app</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given I click on the text box</string>
+              <string>When I enter my text</string>
+              <string>Then I should see the text inside the text box</string>
+              <string>Then I click on menu button</string>
+              <string>And I verify the menu values</string>
+              <string>Then I click on menu button</string>
+            </steps>
+          </scenario>
+        </scenarios>
+        <name>realbuckstory.story</name>
+      </story>
+      <localizedNarrative>As a 
+I want to 
+So that </localizedNarrative>
+      <allowed>true</allowed>
+      <status>FAILED</status>
+      <givenStories/>
+      <scenarios>
+        <performableScenario>
+          <scenario>
+            <title>Enter an sample text in the Realbuck app</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given I click on the text box</string>
+              <string>When I enter my text</string>
+              <string>Then I should see the text inside the text box</string>
+              <string>Then I click on menu button</string>
+              <string>And I verify the menu values</string>
+              <string>Then I click on menu button</string>
+            </steps>
+          </scenario>
+          <storyPath>Stories/RealBucksStories/realbuckstory.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches/>
+              <results>
+                <failed>
+                  <step>Given I click on the text box</step>
+                  <type>FAILED</type>
+                  <throwable>
+                    <detailMessage>Given I click on the text box</detailMessage>
+                    <cause class="net.thucydides.core.webdriver.UnsupportedDriverException">
+                      <detailMessage>Could not instantiate class io.appium.java_client.AppiumDriver</detailMessage>
+                      <cause class="net.thucydides.core.webdriver.UnsupportedDriverException">
+                        <detailMessage>Could not instantiate class io.appium.java_client.AppiumDriver</detailMessage>
+                        <cause class="org.openqa.selenium.WebDriverException">
+                          <detailMessage>The best matching driver provider org.openqa.selenium.ie.InternetExplorerDriver can&apos;t create a new driver instance for Capabilities [{appPackage=com.liquid.realbucks, appActivity=com.liquid.realbucks.DashboardActivity, app=D:/WorkSpace/Driver/RealBucks.apk, record-screenshots=false, idle-timeout=180, platformName=Android, deviceName=192.168.56.101:5555}]
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:06:42&apos;
+System info: host: &apos;SCI-DT-161&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: driver.version: unknown
+Command duration or timeout: 16 milliseconds</detailMessage>
+                          <cause class="org.openqa.selenium.WebDriverException">
+                            <detailMessage>The best matching driver provider org.openqa.selenium.ie.InternetExplorerDriver can&apos;t create a new driver instance for Capabilities [{appPackage=com.liquid.realbucks, appActivity=com.liquid.realbucks.DashboardActivity, app=D:/WorkSpace/Driver/RealBucks.apk, record-screenshots=false, idle-timeout=180, platformName=Android, deviceName=192.168.56.101:5555}]
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:06:42&apos;
+System info: host: &apos;SCI-DT-161&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: driver.version: unknown</detailMessage>
+                            <stackTrace>
+                              <trace>org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:62)</trace>
+                              <trace>org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:222)</trace>
+                              <trace>org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:1)</trace>
+                              <trace>java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+                              <trace>org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)</trace>
+                              <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+                              <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+                              <trace>java.lang.Thread.run(Unknown Source)</trace>
+                            </stackTrace>
+                            <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                              <c class="list"/>
+                              <list/>
+                            </suppressedExceptions>
+                            <extraInfo>
+                              <entry>
+                                <string>Driver info</string>
+                                <string>driver.version: unknown</string>
+                              </entry>
+                            </extraInfo>
+                          </cause>
+                          <stackTrace>
+                            <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)</trace>
+                            <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)</trace>
+                            <trace>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)</trace>
+                            <trace>java.lang.reflect.Constructor.newInstance(Unknown Source)</trace>
+                            <trace>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)</trace>
+                            <trace>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)</trace>
+                            <trace>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)</trace>
+                            <trace>org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)</trace>
+                            <trace>org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)</trace>
+                            <trace>org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)</trace>
+                            <trace>net.thucydides.core.webdriver.WebdriverInstanceFactory.newRemoteDriver(WebdriverInstanceFactory.java:41)</trace>
+                            <trace>net.thucydides.core.webdriver.WebDriverFactory.buildRemoteDriver(WebDriverFactory.java:289)</trace>
+                            <trace>net.thucydides.core.webdriver.WebDriverFactory.newRemoteDriver(WebDriverFactory.java:281)</trace>
+                            <trace>net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:173)</trace>
+                            <trace>net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:140)</trace>
+                            <trace>net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:131)</trace>
+                            <trace>net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)</trace>
+                            <trace>net.thucydides.core.webdriver.WebDriverFacade.setImplicitTimeout(WebDriverFacade.java:257)</trace>
+                            <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElementImmediately(SmartAjaxElementLocator.java:109)</trace>
+                            <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:91)</trace>
+                            <trace>org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)</trace>
+                            <trace>com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)</trace>
+                            <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.isVisible(WebElementFacadeImpl.java:309)</trace>
+                            <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.isCurrentlyVisible(WebElementFacadeImpl.java:344)</trace>
+                            <trace>net.serenitybdd.core.pages.RenderedPageObjectView$2.apply(RenderedPageObjectView.java:130)</trace>
+                            <trace>net.serenitybdd.core.pages.RenderedPageObjectView$2.apply(RenderedPageObjectView.java:127)</trace>
+                            <trace>net.thucydides.core.scheduling.ThucydidesFluentWait.until(ThucydidesFluentWait.java:60)</trace>
+                            <trace>net.serenitybdd.core.pages.RenderedPageObjectView.waitForElement(RenderedPageObjectView.java:114)</trace>
+                            <trace>net.serenitybdd.core.pages.RenderedPageObjectView.waitFor(RenderedPageObjectView.java:105)</trace>
+                            <trace>com.realbucks.test.pageobject.Realbuck_Register_PageObject.clickTextBox(Realbuck_Register_PageObject.java:49)</trace>
+                            <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules.clickOntextbox(RealBucks_RegisterPage_Modules.java:15)</trace>
+                            <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba.CGLIB$clickOntextbox$2(&lt;generated&gt;)</trace>
+                            <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba$$FastClassByCGLIB$$16ad6cd0.invoke(&lt;generated&gt;)</trace>
+                            <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                            <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:348)</trace>
+                            <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:333)</trace>
+                            <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:308)</trace>
+                            <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:130)</trace>
+                            <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:57)</trace>
+                            <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba.clickOntextbox(&lt;generated&gt;)</trace>
+                            <trace>com.realbucks.test.stepsdefine.RealBucksTestSteps.givenIClickOnTheTextBox(RealBucksTestSteps.java:25)</trace>
+                            <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                            <trace>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)</trace>
+                            <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)</trace>
+                            <trace>java.lang.reflect.Method.invoke(Unknown Source)</trace>
+                            <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
+                            <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                            <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                            <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                            <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                            <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                            <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                            <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                            <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                            <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                            <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                            <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                            <trace>java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+                            <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+                            <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+                            <trace>java.lang.Thread.run(Unknown Source)</trace>
+                          </stackTrace>
+                          <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                            <c class="list"/>
+                            <list/>
+                          </suppressedExceptions>
+                          <extraInfo>
+                            <entry>
+                              <string>Driver info</string>
+                              <string>org.openqa.selenium.remote.RemoteWebDriver</string>
+                            </entry>
+                          </extraInfo>
+                        </cause>
+                        <stackTrace>
+                          <trace>net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:204)</trace>
+                          <trace>net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:140)</trace>
+                          <trace>net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:131)</trace>
+                          <trace>net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)</trace>
+                          <trace>net.thucydides.core.webdriver.WebDriverFacade.setImplicitTimeout(WebDriverFacade.java:257)</trace>
+                          <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElementImmediately(SmartAjaxElementLocator.java:109)</trace>
+                          <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:91)</trace>
+                          <trace>org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)</trace>
+                          <trace>com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)</trace>
+                          <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.isVisible(WebElementFacadeImpl.java:309)</trace>
+                          <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.isCurrentlyVisible(WebElementFacadeImpl.java:344)</trace>
+                          <trace>net.serenitybdd.core.pages.RenderedPageObjectView$2.apply(RenderedPageObjectView.java:130)</trace>
+                          <trace>net.serenitybdd.core.pages.RenderedPageObjectView$2.apply(RenderedPageObjectView.java:127)</trace>
+                          <trace>net.thucydides.core.scheduling.ThucydidesFluentWait.until(ThucydidesFluentWait.java:60)</trace>
+                          <trace>net.serenitybdd.core.pages.RenderedPageObjectView.waitForElement(RenderedPageObjectView.java:114)</trace>
+                          <trace>net.serenitybdd.core.pages.RenderedPageObjectView.waitFor(RenderedPageObjectView.java:105)</trace>
+                          <trace>com.realbucks.test.pageobject.Realbuck_Register_PageObject.clickTextBox(Realbuck_Register_PageObject.java:49)</trace>
+                          <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules.clickOntextbox(RealBucks_RegisterPage_Modules.java:15)</trace>
+                          <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba.CGLIB$clickOntextbox$2(&lt;generated&gt;)</trace>
+                          <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba$$FastClassByCGLIB$$16ad6cd0.invoke(&lt;generated&gt;)</trace>
+                          <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                          <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:348)</trace>
+                          <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:333)</trace>
+                          <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:308)</trace>
+                          <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:130)</trace>
+                          <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:57)</trace>
+                          <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba.clickOntextbox(&lt;generated&gt;)</trace>
+                          <trace>com.realbucks.test.stepsdefine.RealBucksTestSteps.givenIClickOnTheTextBox(RealBucksTestSteps.java:25)</trace>
+                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)</trace>
+                          <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)</trace>
+                          <trace>java.lang.reflect.Method.invoke(Unknown Source)</trace>
+                          <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                          <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                          <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                          <trace>java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+                          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+                          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+                          <trace>java.lang.Thread.run(Unknown Source)</trace>
+                        </stackTrace>
+                        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                          <c class="list"/>
+                          <list/>
+                        </suppressedExceptions>
+                      </cause>
+                      <stackTrace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:131)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.setImplicitTimeout(WebDriverFacade.java:257)</trace>
+                        <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElementImmediately(SmartAjaxElementLocator.java:109)</trace>
+                        <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:91)</trace>
+                        <trace>org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)</trace>
+                        <trace>com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)</trace>
+                        <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.isVisible(WebElementFacadeImpl.java:309)</trace>
+                        <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.isCurrentlyVisible(WebElementFacadeImpl.java:344)</trace>
+                        <trace>net.serenitybdd.core.pages.RenderedPageObjectView$2.apply(RenderedPageObjectView.java:130)</trace>
+                        <trace>net.serenitybdd.core.pages.RenderedPageObjectView$2.apply(RenderedPageObjectView.java:127)</trace>
+                        <trace>net.thucydides.core.scheduling.ThucydidesFluentWait.until(ThucydidesFluentWait.java:60)</trace>
+                        <trace>net.serenitybdd.core.pages.RenderedPageObjectView.waitForElement(RenderedPageObjectView.java:114)</trace>
+                        <trace>net.serenitybdd.core.pages.RenderedPageObjectView.waitFor(RenderedPageObjectView.java:105)</trace>
+                        <trace>com.realbucks.test.pageobject.Realbuck_Register_PageObject.clickTextBox(Realbuck_Register_PageObject.java:49)</trace>
+                        <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules.clickOntextbox(RealBucks_RegisterPage_Modules.java:15)</trace>
+                        <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba.CGLIB$clickOntextbox$2(&lt;generated&gt;)</trace>
+                        <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba$$FastClassByCGLIB$$16ad6cd0.invoke(&lt;generated&gt;)</trace>
+                        <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:348)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:333)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:308)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:130)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:57)</trace>
+                        <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba.clickOntextbox(&lt;generated&gt;)</trace>
+                        <trace>com.realbucks.test.stepsdefine.RealBucksTestSteps.givenIClickOnTheTextBox(RealBucksTestSteps.java:25)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)</trace>
+                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)</trace>
+                        <trace>java.lang.reflect.Method.invoke(Unknown Source)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+                        <trace>java.lang.Thread.run(Unknown Source)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                    </cause>
+                    <stackTrace>
+                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                      <trace>java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+                      <trace>java.lang.Thread.run(Unknown Source)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                    <uuid>c5314add-52c0-4fda-a4fb-93d93e7b495f</uuid>
+                  </throwable>
+                  <parametrisedStep>Given I click on the text box</parametrisedStep>
+                  <durationInMillis>133</durationInMillis>
+                </failed>
+                <notPerformed>
+                  <step>When I enter my text</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>When I enter my text</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </notPerformed>
+                <notPerformed>
+                  <step>Then I should see the text inside the text box</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>Then I should see the text inside the text box</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </notPerformed>
+                <notPerformed>
+                  <step>Then I click on menu button</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>Then I click on menu button</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </notPerformed>
+                <notPerformed>
+                  <step>And I verify the menu values</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>And I verify the menu values</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </notPerformed>
+                <notPerformed>
+                  <step>Then I click on menu button</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>Then I click on menu button</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </notPerformed>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>Enter an sample text in the Realbuck app</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <headerSeparator>|</headerSeparator>
+                  <valueSeparator>|</valueSeparator>
+                  <ignorableSeparator>|--</ignorableSeparator>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                  <trim>true</trim>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+              <steps>
+                <string>Given I click on the text box</string>
+                <string>When I enter my text</string>
+                <string>Then I should see the text inside the text box</string>
+                <string>Then I click on menu button</string>
+                <string>And I verify the menu values</string>
+                <string>Then I click on menu button</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>FAILED</status>
+        </performableScenario>
+      </scenarios>
+      <beforeSteps/>
+      <afterSteps/>
+      <timing>
+        <durationInMillis>629</durationInMillis>
+      </timing>
+      <givenStory>false</givenStory>
+    </performableStory>
+  </stories>
+  <scenarios>
+    <performableScenario>
+      <scenario>
+        <title>Enter an sample text in the Realbuck app</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <headerSeparator>|</headerSeparator>
+          <valueSeparator>|</valueSeparator>
+          <ignorableSeparator>|--</ignorableSeparator>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <property name="headerSeparator" value="|"/>
+            <property name="valueSeparator" value="|"/>
+            <property name="ignorableSeparator" value="|--"/>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+          <trim>true</trim>
+        </examplesTable>
+        <steps>
+          <string>Given I click on the text box</string>
+          <string>When I enter my text</string>
+          <string>Then I should see the text inside the text box</string>
+          <string>Then I click on menu button</string>
+          <string>And I verify the menu values</string>
+          <string>Then I click on menu button</string>
+        </steps>
+      </scenario>
+      <storyPath>Stories/RealBucksStories/realbuckstory.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches/>
+          <results>
+            <failed>
+              <step>Given I click on the text box</step>
+              <type>FAILED</type>
+              <throwable>
+                <detailMessage>Given I click on the text box</detailMessage>
+                <cause class="net.thucydides.core.webdriver.UnsupportedDriverException">
+                  <detailMessage>Could not instantiate class io.appium.java_client.AppiumDriver</detailMessage>
+                  <cause class="net.thucydides.core.webdriver.UnsupportedDriverException">
+                    <detailMessage>Could not instantiate class io.appium.java_client.AppiumDriver</detailMessage>
+                    <cause class="org.openqa.selenium.WebDriverException">
+                      <detailMessage>The best matching driver provider org.openqa.selenium.ie.InternetExplorerDriver can&apos;t create a new driver instance for Capabilities [{appPackage=com.liquid.realbucks, appActivity=com.liquid.realbucks.DashboardActivity, app=D:/WorkSpace/Driver/RealBucks.apk, record-screenshots=false, idle-timeout=180, platformName=Android, deviceName=192.168.56.101:5555}]
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:06:42&apos;
+System info: host: &apos;SCI-DT-161&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: driver.version: unknown
+Command duration or timeout: 16 milliseconds</detailMessage>
+                      <cause class="org.openqa.selenium.WebDriverException">
+                        <detailMessage>The best matching driver provider org.openqa.selenium.ie.InternetExplorerDriver can&apos;t create a new driver instance for Capabilities [{appPackage=com.liquid.realbucks, appActivity=com.liquid.realbucks.DashboardActivity, app=D:/WorkSpace/Driver/RealBucks.apk, record-screenshots=false, idle-timeout=180, platformName=Android, deviceName=192.168.56.101:5555}]
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:06:42&apos;
+System info: host: &apos;SCI-DT-161&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: driver.version: unknown</detailMessage>
+                        <stackTrace>
+                          <trace>org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:62)</trace>
+                          <trace>org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:222)</trace>
+                          <trace>org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:1)</trace>
+                          <trace>java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+                          <trace>org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)</trace>
+                          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+                          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+                          <trace>java.lang.Thread.run(Unknown Source)</trace>
+                        </stackTrace>
+                        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                          <c class="list"/>
+                          <list/>
+                        </suppressedExceptions>
+                        <extraInfo>
+                          <entry>
+                            <string>Driver info</string>
+                            <string>driver.version: unknown</string>
+                          </entry>
+                        </extraInfo>
+                      </cause>
+                      <stackTrace>
+                        <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)</trace>
+                        <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)</trace>
+                        <trace>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)</trace>
+                        <trace>java.lang.reflect.Constructor.newInstance(Unknown Source)</trace>
+                        <trace>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)</trace>
+                        <trace>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)</trace>
+                        <trace>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)</trace>
+                        <trace>org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)</trace>
+                        <trace>org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)</trace>
+                        <trace>org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)</trace>
+                        <trace>net.thucydides.core.webdriver.WebdriverInstanceFactory.newRemoteDriver(WebdriverInstanceFactory.java:41)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFactory.buildRemoteDriver(WebDriverFactory.java:289)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFactory.newRemoteDriver(WebDriverFactory.java:281)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:173)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:140)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:131)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.setImplicitTimeout(WebDriverFacade.java:257)</trace>
+                        <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElementImmediately(SmartAjaxElementLocator.java:109)</trace>
+                        <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:91)</trace>
+                        <trace>org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)</trace>
+                        <trace>com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)</trace>
+                        <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.isVisible(WebElementFacadeImpl.java:309)</trace>
+                        <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.isCurrentlyVisible(WebElementFacadeImpl.java:344)</trace>
+                        <trace>net.serenitybdd.core.pages.RenderedPageObjectView$2.apply(RenderedPageObjectView.java:130)</trace>
+                        <trace>net.serenitybdd.core.pages.RenderedPageObjectView$2.apply(RenderedPageObjectView.java:127)</trace>
+                        <trace>net.thucydides.core.scheduling.ThucydidesFluentWait.until(ThucydidesFluentWait.java:60)</trace>
+                        <trace>net.serenitybdd.core.pages.RenderedPageObjectView.waitForElement(RenderedPageObjectView.java:114)</trace>
+                        <trace>net.serenitybdd.core.pages.RenderedPageObjectView.waitFor(RenderedPageObjectView.java:105)</trace>
+                        <trace>com.realbucks.test.pageobject.Realbuck_Register_PageObject.clickTextBox(Realbuck_Register_PageObject.java:49)</trace>
+                        <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules.clickOntextbox(RealBucks_RegisterPage_Modules.java:15)</trace>
+                        <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba.CGLIB$clickOntextbox$2(&lt;generated&gt;)</trace>
+                        <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba$$FastClassByCGLIB$$16ad6cd0.invoke(&lt;generated&gt;)</trace>
+                        <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:348)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:333)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:308)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:130)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:57)</trace>
+                        <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba.clickOntextbox(&lt;generated&gt;)</trace>
+                        <trace>com.realbucks.test.stepsdefine.RealBucksTestSteps.givenIClickOnTheTextBox(RealBucksTestSteps.java:25)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)</trace>
+                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)</trace>
+                        <trace>java.lang.reflect.Method.invoke(Unknown Source)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+                        <trace>java.lang.Thread.run(Unknown Source)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                      <extraInfo>
+                        <entry>
+                          <string>Driver info</string>
+                          <string>org.openqa.selenium.remote.RemoteWebDriver</string>
+                        </entry>
+                      </extraInfo>
+                    </cause>
+                    <stackTrace>
+                      <trace>net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:204)</trace>
+                      <trace>net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:140)</trace>
+                      <trace>net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:131)</trace>
+                      <trace>net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)</trace>
+                      <trace>net.thucydides.core.webdriver.WebDriverFacade.setImplicitTimeout(WebDriverFacade.java:257)</trace>
+                      <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElementImmediately(SmartAjaxElementLocator.java:109)</trace>
+                      <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:91)</trace>
+                      <trace>org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)</trace>
+                      <trace>com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)</trace>
+                      <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.isVisible(WebElementFacadeImpl.java:309)</trace>
+                      <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.isCurrentlyVisible(WebElementFacadeImpl.java:344)</trace>
+                      <trace>net.serenitybdd.core.pages.RenderedPageObjectView$2.apply(RenderedPageObjectView.java:130)</trace>
+                      <trace>net.serenitybdd.core.pages.RenderedPageObjectView$2.apply(RenderedPageObjectView.java:127)</trace>
+                      <trace>net.thucydides.core.scheduling.ThucydidesFluentWait.until(ThucydidesFluentWait.java:60)</trace>
+                      <trace>net.serenitybdd.core.pages.RenderedPageObjectView.waitForElement(RenderedPageObjectView.java:114)</trace>
+                      <trace>net.serenitybdd.core.pages.RenderedPageObjectView.waitFor(RenderedPageObjectView.java:105)</trace>
+                      <trace>com.realbucks.test.pageobject.Realbuck_Register_PageObject.clickTextBox(Realbuck_Register_PageObject.java:49)</trace>
+                      <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules.clickOntextbox(RealBucks_RegisterPage_Modules.java:15)</trace>
+                      <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba.CGLIB$clickOntextbox$2(&lt;generated&gt;)</trace>
+                      <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba$$FastClassByCGLIB$$16ad6cd0.invoke(&lt;generated&gt;)</trace>
+                      <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                      <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:348)</trace>
+                      <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:333)</trace>
+                      <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:308)</trace>
+                      <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:130)</trace>
+                      <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:57)</trace>
+                      <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba.clickOntextbox(&lt;generated&gt;)</trace>
+                      <trace>com.realbucks.test.stepsdefine.RealBucksTestSteps.givenIClickOnTheTextBox(RealBucksTestSteps.java:25)</trace>
+                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)</trace>
+                      <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)</trace>
+                      <trace>java.lang.reflect.Method.invoke(Unknown Source)</trace>
+                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                      <trace>java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+                      <trace>java.lang.Thread.run(Unknown Source)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                  </cause>
+                  <stackTrace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:131)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.setImplicitTimeout(WebDriverFacade.java:257)</trace>
+                    <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElementImmediately(SmartAjaxElementLocator.java:109)</trace>
+                    <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:91)</trace>
+                    <trace>org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)</trace>
+                    <trace>com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)</trace>
+                    <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.isVisible(WebElementFacadeImpl.java:309)</trace>
+                    <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.isCurrentlyVisible(WebElementFacadeImpl.java:344)</trace>
+                    <trace>net.serenitybdd.core.pages.RenderedPageObjectView$2.apply(RenderedPageObjectView.java:130)</trace>
+                    <trace>net.serenitybdd.core.pages.RenderedPageObjectView$2.apply(RenderedPageObjectView.java:127)</trace>
+                    <trace>net.thucydides.core.scheduling.ThucydidesFluentWait.until(ThucydidesFluentWait.java:60)</trace>
+                    <trace>net.serenitybdd.core.pages.RenderedPageObjectView.waitForElement(RenderedPageObjectView.java:114)</trace>
+                    <trace>net.serenitybdd.core.pages.RenderedPageObjectView.waitFor(RenderedPageObjectView.java:105)</trace>
+                    <trace>com.realbucks.test.pageobject.Realbuck_Register_PageObject.clickTextBox(Realbuck_Register_PageObject.java:49)</trace>
+                    <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules.clickOntextbox(RealBucks_RegisterPage_Modules.java:15)</trace>
+                    <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba.CGLIB$clickOntextbox$2(&lt;generated&gt;)</trace>
+                    <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba$$FastClassByCGLIB$$16ad6cd0.invoke(&lt;generated&gt;)</trace>
+                    <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:348)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:333)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:308)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:130)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:57)</trace>
+                    <trace>com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules$$EnhancerByCGLIB$$873f9dba.clickOntextbox(&lt;generated&gt;)</trace>
+                    <trace>com.realbucks.test.stepsdefine.RealBucksTestSteps.givenIClickOnTheTextBox(RealBucksTestSteps.java:25)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)</trace>
+                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)</trace>
+                    <trace>java.lang.reflect.Method.invoke(Unknown Source)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+                    <trace>java.lang.Thread.run(Unknown Source)</trace>
+                  </stackTrace>
+                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                    <c class="list"/>
+                    <list/>
+                  </suppressedExceptions>
+                </cause>
+                <stackTrace>
+                  <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                  <trace>java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+                  <trace>java.lang.Thread.run(Unknown Source)</trace>
+                </stackTrace>
+                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                  <c class="list"/>
+                  <list/>
+                </suppressedExceptions>
+                <uuid>c5314add-52c0-4fda-a4fb-93d93e7b495f</uuid>
+              </throwable>
+              <parametrisedStep>Given I click on the text box</parametrisedStep>
+              <durationInMillis>133</durationInMillis>
+            </failed>
+            <notPerformed>
+              <step>When I enter my text</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>When I enter my text</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </notPerformed>
+            <notPerformed>
+              <step>Then I should see the text inside the text box</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>Then I should see the text inside the text box</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </notPerformed>
+            <notPerformed>
+              <step>Then I click on menu button</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>Then I click on menu button</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </notPerformed>
+            <notPerformed>
+              <step>And I verify the menu values</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>And I verify the menu values</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </notPerformed>
+            <notPerformed>
+              <step>Then I click on menu button</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>Then I click on menu button</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </notPerformed>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>Enter an sample text in the Realbuck app</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+          <steps>
+            <string>Given I click on the text box</string>
+            <string>When I enter my text</string>
+            <string>Then I should see the text inside the text box</string>
+            <string>Then I click on menu button</string>
+            <string>And I verify the menu values</string>
+            <string>Then I click on menu button</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>FAILED</status>
+    </performableScenario>
+  </scenarios>
+</xref>

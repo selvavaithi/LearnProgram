@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Realbuckstory" skipped="0" tests="1" time="0.19" timestamp="2016-05-124 12:45:49"><testcase name="Enter an sample text in the Realbuck app"><error message="Could not instantiate class io.appium.java_client.AppiumDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate class io.appium.java_client.AppiumDriver</error><system-err>Could not instantiate class io.appium.java_client.AppiumDriver&#13;
+com.realbucks.test.pageobject.Realbuck_Register_PageObject.clickTextBox(Realbuck_Register_PageObject.java:49)&#13;
+com.realbucks.test.stepsmodules.RealBucks_RegisterPage_Modules.clickOntextbox(RealBucks_RegisterPage_Modules.java:15)&#13;
+com.realbucks.test.stepsdefine.RealBucksTestSteps.givenIClickOnTheTextBox(RealBucksTestSteps.java:25)&#13;
+</system-err></testcase></testsuite>
