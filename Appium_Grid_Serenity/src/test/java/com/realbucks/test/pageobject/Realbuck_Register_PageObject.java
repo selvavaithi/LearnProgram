@@ -8,11 +8,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import net.serenitybdd.core.pages.PageObject;
+import com.realbucks.test.myutilities.My_PageObject;
+
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.webdriver.WebDriverFacade;
 
-public class Realbuck_Register_PageObject extends PageObject {
+public class Realbuck_Register_PageObject extends My_PageObject {
 
 	@FindBy(id = "com.liquid.realbucks:id/hiw_page_1_content")
 	private WebElement hiw_page_1_content;
