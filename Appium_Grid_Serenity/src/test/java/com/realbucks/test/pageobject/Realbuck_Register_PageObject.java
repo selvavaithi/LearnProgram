@@ -8,8 +8,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import io.appium.java_client.MobileDriver;
-import io.appium.java_client.TouchAction;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.webdriver.WebDriverFacade;
@@ -39,8 +37,6 @@ public class Realbuck_Register_PageObject extends PageObject {
 
 	@FindBy(id = "com.liquid.realbucks:id/minireg_btn_sign_up")
 	private WebElement sign_up_btn;
-
-	private TouchAction actions;
 
 	private WebDriver driver;
 
