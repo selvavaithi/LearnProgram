@@ -47,22 +47,13 @@ public class Realbuck_Register_PageObject extends PageObject {
 	public void clickTextBox() {
 		System.out.println("going to find");
 		withTimeoutOf(100, TimeUnit.SECONDS).waitFor(nextbtn);
-System.out.println("Next button is found");
-		WebDriver facade = getDriver();
-		driver = ((WebDriverFacade) facade).getProxiedDriver();
-
-		actions = new TouchAction((MobileDriver) driver);
-		System.out.println(
-				"X: " + hiw_page_1_content.getLocation().getX() + " Y: " + hiw_page_1_content.getLocation().getY());
+		System.out.println("Next button is found");
 		nextbtn.click();
 		nextbtn.click();
 		withTimeoutOf(100, TimeUnit.SECONDS).waitFor(FNtextbox);
 	}
 
 	public void VerifyEnteredText() {
-		actions.press(getDriver().findElement(By.id("com.liquid.realbucks:id/minireg_editText_password")))
-				.moveTo(getDriver().findElement(By.id("com.liquid.realbucks:id/minireg_editText_last_initial")))
-				.release();
 		System.out.println("2 Verified ");
 		sign_up_btn.click();
 		System.out.println("3 Verified ");
