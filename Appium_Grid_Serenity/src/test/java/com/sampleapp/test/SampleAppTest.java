@@ -12,6 +12,10 @@ public class SampleAppTest extends SerenityStories {
 		getSystemConfiguration().setIfUndefined(
 				ThucydidesSystemProperty.THUCYDIDES_DRIVER_CAPABILITIES.getPropertyName(),
 				"deviceName:192.168.56.101:5555");
+
+		getSystemConfiguration().setIfUndefined(
+				ThucydidesSystemProperty.THUCYDIDES_DRIVER_CAPABILITIES.getPropertyName(),
+				"app=D:/WorkSpace/Driver/selendroid-test-app-0.17.0.apk");
 	}
 
 	@Override
