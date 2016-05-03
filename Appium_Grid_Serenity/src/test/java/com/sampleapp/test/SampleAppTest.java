@@ -1,15 +1,15 @@
-package com.realbucks.test;
+package com.sampleapp.test;
 
 import java.util.Arrays;
 import java.util.List;
 
 import net.serenitybdd.jbehave.SerenityStories;
 
-public class RealBucksTest extends SerenityStories {
+public class SampleAppTest extends SerenityStories {
 
 	@Override
 	public List<String> storyPaths() {
-		return Arrays.asList("Stories/RealBucksStories/realbuckstory.story");
+		return Arrays.asList("Stories/RealBucksStories/simpleapp.story");
 	}
 
 }

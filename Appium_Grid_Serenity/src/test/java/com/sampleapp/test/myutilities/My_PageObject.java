@@ -1,4 +1,4 @@
-package com.realbucks.test.myutilities;
+package com.sampleapp.test.myutilities;
 
 import net.serenitybdd.core.pages.PageObject;
 
