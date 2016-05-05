@@ -28,4 +28,16 @@ test{
 	testLogging.showStandardStreams = true
 }
 
+task runAParallelSuite(type: Test) {
+	def forks =2
+	exclude ('**/Library.java')
+	println "The Maximum parallel is $forks"
+	// uncomment maxParallelForks if you prefer to use the Gradle process forker
+	// which also requires a complete change of how the suite class works
+	maxParallelForks = forks
+	include '**/**TestSuite.class'
+	// testReportDir = file("${reporting.baseDir}/AParallelSuite")
+	// testResultsDir = file("${buildDir}/test-results/AParallelSuite")
+}
+
 gradle.startParameter.continueOnFailure = true

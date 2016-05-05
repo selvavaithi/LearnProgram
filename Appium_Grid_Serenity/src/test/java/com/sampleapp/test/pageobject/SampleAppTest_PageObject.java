@@ -33,6 +33,9 @@ public class SampleAppTest_PageObject extends PageObject {
 	@FindBy(id = "io.selendroid.testapp:id/startUserRegistration")
 	WebElement startUserRegistration;
 
+	@FindBy(id = "com.android2.calculator3:id/cling_dismiss")
+	WebElement cling_dismiss;
+
 	public void fillRegisterPage() {
 		// fill username, password, email and name
 		wait_for_it(inputEmail).sendKeys("testing@test.com");
