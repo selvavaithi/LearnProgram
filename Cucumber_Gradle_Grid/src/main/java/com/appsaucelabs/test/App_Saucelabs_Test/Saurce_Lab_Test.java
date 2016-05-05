@@ -18,7 +18,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 /**
- * Unit test for simple App.
+ * This example is for Appium to Saurcelab test
  */
 public class Saurce_Lab_Test {
 
