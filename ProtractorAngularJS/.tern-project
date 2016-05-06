@@ -10,10 +10,10 @@
     "jasmine": {
       
     },
-    "angular": {
+    "protractor": {
       
     },
-    "protractor": {
+    "angular1": {
       
     }
   },
