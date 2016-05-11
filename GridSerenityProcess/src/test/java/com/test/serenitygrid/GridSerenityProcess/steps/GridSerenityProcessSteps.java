@@ -51,9 +51,6 @@ public class GridSerenityProcessSteps {
 	@Then("I search $nearbyplace that are near $place")
 	public void ThenIsearchnearbyplacethatarenearplaces(@Named("nearbyplace") String nearbyplace,
 			@Named("place") String place) {
-
 		gridserenityprocesspages.Isearchnearbyplacethatarenearplaces(nearbyplace, place);
-
 	}
-
 }
