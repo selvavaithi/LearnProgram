@@ -26,5 +26,6 @@ public class SampleApp2_TestSuite extends SerenityStories {
 	public List<String> storyPaths() {
 		return Arrays.asList("Stories/SampleAppStories/simpleapp2.story");
 	}
+	
 
 }

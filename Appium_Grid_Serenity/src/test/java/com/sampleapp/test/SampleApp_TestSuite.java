@@ -10,12 +10,6 @@ public class SampleApp_TestSuite extends SerenityStories {
 
 	public SampleApp_TestSuite() {
 
-		try {
-			Thread.sleep(5000l);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-
 		getSystemConfiguration().setIfUndefined(
 				ThucydidesSystemProperty.THUCYDIDES_DRIVER_CAPABILITIES.getPropertyName(),
 				"deviceName:192.168.56.101:5555");
@@ -33,11 +27,7 @@ public class SampleApp_TestSuite extends SerenityStories {
 
 	@Override
 	public List<String> storyPaths() {
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
+
 		return Arrays.asList("Stories/SampleAppStories/simpleapp.story");
 	}
 
