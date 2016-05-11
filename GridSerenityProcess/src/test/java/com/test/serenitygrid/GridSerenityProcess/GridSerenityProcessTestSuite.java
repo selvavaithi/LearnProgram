@@ -44,7 +44,7 @@ public class GridSerenityProcessTestSuite extends SerenityStories {
 
 	@Override
 	public List<String> storyPaths() {
-		return Arrays.asList("stories/GoogleSearch2.story");
+		return Arrays.asList("stories/GoogleSearch.story");
 	}
 
 	@Override
