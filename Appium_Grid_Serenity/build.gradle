@@ -38,6 +38,8 @@ task runAParallelSuite(type: Test) {
 	include '**/**TestSuite.class'
 	// testReportDir = file("${reporting.baseDir}/AParallelSuite")
 	// testResultsDir = file("${buildDir}/test-results/AParallelSuite")
+	// show standard out and standard error of the test JVM(s) on the console
+	testLogging.showStandardStreams = true
 }
 
 gradle.startParameter.continueOnFailure = true

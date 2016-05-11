@@ -1,5 +1,6 @@
 package com.sampleapp.test.pageobject;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -37,21 +38,24 @@ public class SampleAppTest_PageObject extends PageObject {
 	WebElement cling_dismiss;
 
 	public void fillRegisterPage() {
+		WebElement inputEmail1 = getDriver().findElement(By.id("io.selendroid.testapp:id/inputEmail"));
 		// fill username, password, email and name
-		wait_for_it(inputEmail).sendKeys("testing@test.com");
+		wait_for_it(inputEmail1).sendKeys("testing@test.com");
 		// Select the program language
 		// select the tick
 		// click on register button
 	}
 
 	public void click_startUserRegistration() {
-		wait_and_click(startUserRegistration);
+		WebElement startUserRegistration1 = getDriver().findElement(By.id("io.selendroid.testapp:id/startUserRegistration"));
+		wait_and_click(startUserRegistration1);
 	}
 
 	public void verify_App_HomePage() {
 		// verify the text Hello Default Locale, Selendroid-test-app!
-		wait_for_it(startUserRegistration);
-		System.out.println("Button status: " + startUserRegistration.isDisplayed());
+		WebElement startUserRegistration1 = getDriver().findElement(By.id("io.selendroid.testapp:id/startUserRegistration"));
+		wait_for_it(startUserRegistration1);
+		System.out.println("Button status: " + startUserRegistration1.isDisplayed());
 	}
 
 	public void verify_App_registrationPage() {

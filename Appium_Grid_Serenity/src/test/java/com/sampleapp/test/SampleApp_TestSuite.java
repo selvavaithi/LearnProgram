@@ -9,11 +9,22 @@ import net.thucydides.core.ThucydidesSystemProperty;
 public class SampleApp_TestSuite extends SerenityStories {
 
 	public SampleApp_TestSuite() {
+
+		try {
+			Thread.sleep(5000l);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+
 		getSystemConfiguration().setIfUndefined(
 				ThucydidesSystemProperty.THUCYDIDES_DRIVER_CAPABILITIES.getPropertyName(),
 				"deviceName:192.168.56.101:5555");
-		
-		//4d00af03525c80a1
+
+		getSystemConfiguration().setIfUndefined(
+				ThucydidesSystemProperty.THUCYDIDES_DRIVER_CAPABILITIES.getPropertyName(), "version:6.0");
+
+		// 192.168.56.101:5555
+		// Google_Nexus_9___6_0_0___AP I_23___1536x2048
 
 		getSystemConfiguration().setIfUndefined(
 				ThucydidesSystemProperty.THUCYDIDES_DRIVER_CAPABILITIES.getPropertyName(),
@@ -22,6 +33,11 @@ public class SampleApp_TestSuite extends SerenityStories {
 
 	@Override
 	public List<String> storyPaths() {
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		return Arrays.asList("Stories/SampleAppStories/simpleapp.story");
 	}
 

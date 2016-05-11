@@ -11,7 +11,7 @@ public class SampleApp2_TestSuite extends SerenityStories {
 	public SampleApp2_TestSuite() {
 		getSystemConfiguration().setIfUndefined(
 				ThucydidesSystemProperty.THUCYDIDES_DRIVER_CAPABILITIES.getPropertyName(),
-				"deviceName:4d00af03525c80a1");
+				"deviceName:4d00af03525c80a1"); //GT_N7100
 		getSystemConfiguration().setIfUndefined(
 				ThucydidesSystemProperty.THUCYDIDES_DRIVER_CAPABILITIES.getPropertyName(), "version:5.0.2");
 
@@ -24,7 +24,7 @@ public class SampleApp2_TestSuite extends SerenityStories {
 
 	@Override
 	public List<String> storyPaths() {
-		return Arrays.asList("Stories/SampleAppStories/simpleapp.story");
+		return Arrays.asList("Stories/SampleAppStories/simpleapp2.story");
 	}
 
 }
