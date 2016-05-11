@@ -1,3 +1,4 @@
+
 package com.test.serenitygrid.GridSerenityProcess.model;
 
 import com.test.serenitygrid.GridSerenityProcess.pageobject.GridSerenityProcesspageObject;
