@@ -2,6 +2,7 @@ package com.serenityjbehave.grid.PageObject;
 
 import org.jbehave.core.annotations.AfterScenario;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.server.browserlaunchers.Sleeper;
 
 public class PCHregisterPagePageObject extends MyPageObjects {
 
@@ -15,6 +16,7 @@ public class PCHregisterPagePageObject extends MyPageObjects {
 
 	@AfterScenario
 	public void afterscenarioWork() {
+		Sleeper.sleepTightInSeconds(3);
 		((JavascriptExecutor) getDriver()).executeScript("window.onbeforeunload = function(e){};");
 	}
 
