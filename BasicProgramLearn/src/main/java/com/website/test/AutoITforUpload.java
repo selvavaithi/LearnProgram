@@ -8,6 +8,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -23,7 +24,8 @@ public class AutoITforUpload {
 
 	@BeforeClass
 	public static void setUp() {
-		driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", "D:/WorkSpace/Driver/chromedriver.exe");
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://blueimp.github.io/jQuery-File-Upload/");
 		waitForElement = new WebDriverWait(driver, 30);
@@ -43,18 +45,20 @@ public class AutoITforUpload {
 
 		try {
 			Thread.sleep(3000);
+			driver.findElement(By.xpath("//*[@id='fileupload']/div/div[1]/span[1]/input")).sendKeys(cmd);
+
+			Thread.sleep(3000);
 			System.out.println(file_dir + "/AutoItScript/FileUploadCode.exe");
-			Runtime.getRuntime().exec(file_dir + "\\AutoItScript\\FileUploadCode.exe" + " " + cmd);
+			Runtime.getRuntime().exec(file_dir + "\\AutoItScript\\ChromeFileUpload.exe" + " " + cmd);
 		} catch (InterruptedException | IOException e) {
 			e.printStackTrace();
 		}
-
 	}
 
 	@AfterClass
 	public static void TearDown() {
 		try {
-			Thread.sleep(5600);
+			Thread.sleep(5000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
