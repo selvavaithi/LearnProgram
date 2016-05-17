@@ -28,4 +28,5 @@ dependencies {
     // 'test.useTestNG()' to your build script.
     testCompile 'junit:junit:4.12'
 	testCompile 'org.seleniumhq.selenium:selenium-java:2.53.0'
+	testCompile 'com.paulhammant:ngwebdriver:0.9.5'
 }
