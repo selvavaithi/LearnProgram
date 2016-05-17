@@ -2,6 +2,7 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
+apply plugin: 'maven'
 
 def serenityversion = "1.1.31"
 def serenity_jbehave_ver ="1.9.0"
@@ -21,6 +22,8 @@ buildscript {
 
 dependencies {
 	compile 'org.slf4j:slf4j-api:1.7.14'
+	compile group: 'org.testng', name: 'testng', version: '6.9.10'
+
 	testCompile 'junit:junit:4.12'
 	testCompile "net.serenity-bdd:serenity-core:$serenityversion"
 	testCompile "net.serenity-bdd:serenity-junit:$serenityversion"
@@ -35,26 +38,23 @@ sourceSets {
 // show standard out and standard error of the test JVM(s) on the console
 test{ testLogging.showStandardStreams = true }
 
-//To execute the command in the command prompt
-task myrun(type:Exec) { commandLine 'cmd', '/c', 'gradle clean runAParallelSuite aggregate' }
+task createPom << {
+	pom {
+		project {
+			groupId 'com.cucumebrApp'
+			artifactId 'Test'
+			version '1.0.0'
 
-//Just to run some plain test
-task justruntest(type:Test){
-	println "Executing a single test"
-	include 'PCHregisterPage.java'
+			inceptionYear '2016'
+			licenses {
+				license {
+					name 'The Apache Software License, Version 2.0'
+					url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+					distribution 'repo'
+				}
+			}
+		}
+	}.writeTo("pom.xml")
 }
 
-// To run the parallel code.
-// runs a filtered test class with Gradle JUnit runner
-task runAParallelSuite(type: Test) {
-	def forks =2
-	exclude ('**/Library.java')
-	println "The Maximum parallel is $forks"
-	// uncomment maxParallelForks if you prefer to use the Gradle process forker
-	// which also requires a complete change of how the suite class works
-	maxParallelForks = forks
-	include '**/**TestSuite**.class'
-	// testReportDir = file("${reporting.baseDir}/AParallelSuite")
-	// testResultsDir = file("${buildDir}/test-results/AParallelSuite")
-}
 gradle.startParameter.continueOnFailure = true
