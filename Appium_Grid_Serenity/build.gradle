@@ -28,6 +28,13 @@ test{
 	testLogging.showStandardStreams = true
 }
 
+task singletest(type: Test){
+	include '**/SampleAppTest.class'
+	exclude '**/**TestSuite.class'
+	// show standard out and standard error of the test JVM(s) on the console
+	testLogging.showStandardStreams = true
+}
+
 task runAParallelSuite(type: Test) {
 	def forks =2
 	exclude ('**/Library.java')
