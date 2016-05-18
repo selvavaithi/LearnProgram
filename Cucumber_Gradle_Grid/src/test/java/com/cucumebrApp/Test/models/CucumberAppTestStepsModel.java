@@ -30,8 +30,8 @@ public class CucumberAppTestStepsModel {
 	}
 
 	@Step
-	public void i_validate_the_the_page_title(String title) {
-		cucumberapptestpageobject. i_validate_the_the_page_title(title);
+	public void i_validate_that_the_page_title(String title) {
+		cucumberapptestpageobject.i_validate_that_the_page_title(title);
 	}
 
 	@Step
