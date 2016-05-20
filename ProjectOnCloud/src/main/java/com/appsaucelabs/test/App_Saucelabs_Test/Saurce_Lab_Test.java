@@ -17,17 +17,15 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.remote.MobileCapabilityType;
 
-/**
- * This example is for Appium to Saurcelab test
- */
 public class Saurce_Lab_Test {
 
 	private static WebDriver driver;
 	private static WebDriverWait wait;
 	// "selvatesting";
-	public static final String USERNAME = "johntest1";
+	public static final String USERNAME = "blogman";
 	// "a53f3b04-441e-4274-83c9-68b27d9cfc4d";
-	public static final String ACCESS_KEY = "17ca1a7f-001c-4c32-8eda-a7c1ec4cd0a0";
+	public static final String ACCESS_KEY = "7c3c1b17-0cc6-412a-a816-1f59552800c0";
+	//johntest1; 17ca1a7f-001c-4c32-8eda-a7c1ec4cd0a0
 	public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
 
 	@AndroidFindBy(id = "io.selendroid.testapp:id/inputUsername")
