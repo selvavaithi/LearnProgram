@@ -44,6 +44,8 @@ task myrun(type:Exec) { commandLine 'cmd', '/c', 'gradle clean runAParallelSuite
 task justruntest(type:Test){
 	println "Executing a single test"
 	include 'PCHregisterPage.java'
+	exclude ('**/**TestSuite.java')
+	exclude ('**/**TestSuite2.java')
 }
 
 // To run the parallel code.
