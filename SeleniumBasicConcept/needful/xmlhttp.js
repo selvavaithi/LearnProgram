@@ -1,6 +1,4 @@
-function StartUp() 
-{ 
-    var xmlReq;
+ var xmlReq;
     if (window.XMLHttpRequest)
     {
         //code for IE7+, Firefox, Chrome, Opera, Safari
@@ -11,9 +9,13 @@ function StartUp()
         xmlReq = new ActiveXObject("Microsoft.XMLHTTP");
     }
 
-    xmlReq.onreadystatechange = function () 
+    url = "Access-Control-Allow-Origin:http://maps.googleapis.com/maps/api/directions/xml?origin=Okkiyam+Thuraipakkam&destination=nellore";
+    xmlReq.open("GET", url, true);
+    xmlReq.setRequestHeader("Content-Type", "text/xml; charset=utf-8");
+    xmlReq.send();
     
-    {  //alert(xmlReq.readyState + " Statuscode= "+ xmlReq.status);
+    xmlReq.onreadystatechange = function ()
+    {  alert(xmlReq.readyState + " Statuscode= "+ xmlReq.status);
         if (xmlReq.readyState == 4 ) 
         {
             response = xmlReq.responseText;
@@ -29,9 +31,4 @@ function StartUp()
                   alert("Distance text= "+value2)
                }
     };
-    url = "https://maps.googleapis.com/maps/api/directions/xml?origin=Okkiyam+Thuraipakkam&destination=nellore";
-    xmlReq.open("GET", url, true);
-    xmlReq.setRequestHeader("Content-Type", "text/xml; charset=utf-8");
-    xmlReq.send();
-}
-</script>
+   
