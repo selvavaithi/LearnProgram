@@ -35,8 +35,7 @@ public class AutoITforUpload {
 		// String filepath =
 		// "D:/Mine/GitHub/BasicProgramLearn/AutoItScript/unnamed.png";
 		WebElement btn = driver.findElement(By.cssSelector("span.btn.btn-success.fileinput-button"));
-		waitForElement(btn);
-		btn.click();
+		
 		String file_dir = System.getProperty("user.dir");
 		String cmd = file_dir + "\\AutoItScript\\unnamed.png";
 
@@ -47,6 +46,8 @@ public class AutoITforUpload {
 			Thread.sleep(3000);
 			driver.findElement(By.xpath("//*[@id='fileupload']/div/div[1]/span[1]/input")).sendKeys(cmd);
 
+			waitForElement(btn);
+			btn.click();
 			Thread.sleep(3000);
 			System.out.println(file_dir + "/AutoItScript/FileUploadCode.exe");
 			Runtime.getRuntime().exec(file_dir + "\\AutoItScript\\ChromeFileUpload.exe" + " " + cmd);
@@ -59,10 +60,11 @@ public class AutoITforUpload {
 	public static void TearDown() {
 		try {
 			Thread.sleep(5000);
+			//driver.quit();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		driver.quit();
+		
 	}
 
 	private void waitForElement(WebElement vElement) {
