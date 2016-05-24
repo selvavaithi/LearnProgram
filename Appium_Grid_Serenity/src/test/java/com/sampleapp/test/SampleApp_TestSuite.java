@@ -14,6 +14,9 @@ public class SampleApp_TestSuite extends SerenityStories {
 				ThucydidesSystemProperty.THUCYDIDES_DRIVER_CAPABILITIES.getPropertyName(),
 				"deviceName:192.168.56.101:5555");
 
+		getSystemConfiguration().setIfUndefined(ThucydidesSystemProperty.WEBDRIVER_REMOTE_URL.getPropertyName(),
+				"http://192.168.129.195:4444/wd/hub");
+
 		getSystemConfiguration().setIfUndefined(
 				ThucydidesSystemProperty.THUCYDIDES_DRIVER_CAPABILITIES.getPropertyName(), "version:6.0");
 

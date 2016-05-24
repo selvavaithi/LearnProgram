@@ -1,4 +1,4 @@
-package com.sampleapp.test;
+/*package com.sampleapp.test;
 
 import java.util.Arrays;
 import java.util.List;
@@ -14,3 +14,4 @@ public class SampleAppTest extends SerenityStories {
 	}
 
 }
+*/
