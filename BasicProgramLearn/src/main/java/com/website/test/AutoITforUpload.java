@@ -60,7 +60,7 @@ public class AutoITforUpload {
 	public static void TearDown() {
 		try {
 			Thread.sleep(5000);
-			//driver.quit();
+			driver.quit();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
