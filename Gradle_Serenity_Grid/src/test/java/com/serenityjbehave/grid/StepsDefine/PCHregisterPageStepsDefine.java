@@ -30,13 +30,38 @@ public class PCHregisterPageStepsDefine {
 	}
 
 	@Given("I go to PCH website")
-	@Aliases(values={"I log to PCH website","I am navigating to PCH website"})
+	@Aliases(values = { "I log to PCH website", "I am navigating to PCH website" })
 	public void givenIGoToPCHWebsite() {
 		pchregisterpagesteps.openURL();
 	}
 
+	@Given("I type and go to $site")
+	public void givenIgoToSite(@Named("site") String site) {
+		pchregisterpagesteps.openURL(site);
+	}
+
 	@Then("I click on the registration submit button")
 	public void thenIClickOnTheRegistrationSubmitButton() {
+	}
+
+	@Then("I click on file upload button")
+	public void thenIclickonfileuploadbutton() {
+		pchregisterpagesteps.clickUploadButton();
+	}
+	
+	@When("I click on file upload button")
+	public void whenIClickOnFileUploadButton() {
+		pchregisterpagesteps.clickUploadButton();
+	}
+
+	@Then("I apply AutoIT to it")
+	public void thenIapplyAutoITtoit() {
+		pchregisterpagesteps.applyAutoITscript();
+	}
+
+	@Then("Verify the file is uploaded")
+	public void thenVerifythefileisuploaded() {
+		pchregisterpagesteps.Verifythefileisuploaded();
 	}
 
 	@Then("I should present in registration page")

@@ -23,4 +23,7 @@ public class MyPageObjects extends PageObject {
 
 	@FindBy(css = "input#sub-btn.submit-btn")
 	WebElementFacade reg_submit_btn;
+	
+	@FindBy(css = "span.btn.btn-success.fileinput-button")
+	WebElementFacade Add_files_btn;
 }
