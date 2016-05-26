@@ -1,23 +1,26 @@
 package com.appsaucelabs.test.App_Saucelabs_Test;
 
+import static org.junit.Assert.*;
+
 import java.net.MalformedURLException;
 import java.net.URL;
-
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.remote.MobileCapabilityType;
+import junit.framework.TestCase;
 
 /*
  * 
@@ -30,9 +33,10 @@ public class Saurce_Lab_Test {
 	private static WebDriver driver;
 	private static WebDriverWait wait;
 	// "selvatesting";
-	public static final String USERNAME = "blogman";
+	public static final String USERNAME = "freetrialuser";
 	// "a53f3b04-441e-4274-83c9-68b27d9cfc4d";
-	public static final String ACCESS_KEY = "7c3c1b17-0cc6-412a-a816-1f59552800c0";
+	public static final String ACCESS_KEY = "9c241d70-8f67-45e1-9521-29c1ec9f8b3b";
+	// blogman "7c3c1b17-0cc6-412a-a816-1f59552800c0";
 	// johntest1; 17ca1a7f-001c-4c32-8eda-a7c1ec4cd0a0
 	public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
 
@@ -92,12 +96,12 @@ public class Saurce_Lab_Test {
 		if (platform.equalsIgnoreCase("ios")) {
 			caps = DesiredCapabilities.iphone();
 			caps.setCapability("appiumVersion", "1.5.2");
-			caps.setCapability("deviceName", "iPhone 6");
+			caps.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 6");
 			caps.setCapability("deviceOrientation", "portrait");
-			caps.setCapability("platformVersion", "9.2");
+			caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "7.1");
 			caps.setCapability("platformName", "iOS");
 			caps.setCapability("browserName", "");
-			caps.setCapability("app", "sauce-storage:appzip.zip");
+			caps.setCapability(MobileCapabilityType.APP, "http://appium.s3.amazonaws.com/TestApp6.0.app.zip");
 
 			try {
 				driver = new IOSDriver<WebElement>(new URL(URL), caps);
@@ -108,6 +112,31 @@ public class Saurce_Lab_Test {
 		}
 	}
 
+	@Test
+	public void testUIComputation() {
+
+		IOSDriver<WebElement> driver1 = (IOSDriver<WebElement>) driver;
+		// populate text fields with values
+		MobileElement fieldOne = (MobileElement) driver1.findElementByAccessibilityId("TextField1");
+		fieldOne.sendKeys("12");
+
+		MobileElement fieldTwo = (MobileElement) driver1.findElementsByClassName("UIATextField").get(1);
+		fieldTwo.sendKeys("8");
+
+		// they should be the same size, and the first should be above the
+		// second
+		assertTrue(fieldOne.getLocation().getY() < fieldTwo.getLocation().getY());
+		assertEquals(fieldOne.getSize(), fieldTwo.getSize());
+
+		// trigger computation by using the button
+		driver1.findElementByAccessibilityId("ComputeSumButton").click();
+
+		// is sum equal?
+		String sum = driver1.findElementsByClassName("UIAStaticText").get(0).getText();
+		TestCase.assertEquals(Integer.parseInt(sum), 20);
+	}
+
+	@Ignore
 	@Test
 	public void test1() {
 		WebElement startUserRegistration1 = driver.findElement(By.id("io.selendroid.testapp:id/startUserRegistration"));
