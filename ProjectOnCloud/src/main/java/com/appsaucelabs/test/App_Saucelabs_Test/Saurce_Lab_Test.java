@@ -10,10 +10,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.remote.MobileCapabilityType;
 
@@ -63,24 +65,46 @@ public class Saurce_Lab_Test {
 
 	@BeforeClass
 	public static void setUp() {
-		DesiredCapabilities caps = DesiredCapabilities.android();
-		caps.setCapability(MobileCapabilityType.APPIUM_VERSION, "1.5.2");
-		caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Emulator");
-		caps.setCapability("deviceType", "phone");
-		caps.setCapability("deviceOrientation", "portrait");
-		caps.setCapability("browserName", "");
-		caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "5.1");
-		caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "ANDROID");
-		caps.setCapability(MobileCapabilityType.APP,
-				"https://github.com/selvavaithi/LearnBasic/blob/master/selendroid-test-app-0.17.0.apk?raw=true");
-		caps.setCapability("appPackage", "io.selendroid.testapp");// "io.selendroid.testapp"
-		caps.setCapability("appActivity", "io.selendroid.testapp.HomeScreenActivity");// "io.selendroid.testapp.HomeScreenActivity"
+		String platform = "ios";
+		DesiredCapabilities caps;
+		if (platform.equalsIgnoreCase("android")) {
+			caps = DesiredCapabilities.android();
+			caps.setCapability(MobileCapabilityType.APPIUM_VERSION, "1.5.2");
+			caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Emulator");
+			caps.setCapability("deviceType", "phone");
+			caps.setCapability("deviceOrientation", "portrait");
+			caps.setCapability("browserName", "");
+			caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "5.1");
+			caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "ANDROID");
+			caps.setCapability(MobileCapabilityType.APP,
+					"https://github.com/selvavaithi/LearnBasic/blob/master/selendroid-test-app-0.17.0.apk?raw=true");
+			caps.setCapability("appPackage", "io.selendroid.testapp");// "io.selendroid.testapp"
+			caps.setCapability("appActivity", "io.selendroid.testapp.HomeScreenActivity");// "io.selendroid.testapp.HomeScreenActivity"
 
-		try {
-			driver = new AndroidDriver<WebElement>(new URL(URL), caps);
-			wait = new WebDriverWait(driver, 100);
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
+			try {
+				driver = new AndroidDriver<WebElement>(new URL(URL), caps);
+				wait = new WebDriverWait(driver, 100);
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
+		}
+
+		if (platform.equalsIgnoreCase("ios")) {
+			caps = DesiredCapabilities.iphone();
+			caps.setCapability("appiumVersion", "1.5.2");
+			caps.setCapability("deviceName", "iPhone 6");
+			caps.setCapability("deviceOrientation", "portrait");
+			caps.setCapability("platformVersion", "9.2");
+			caps.setCapability("platformName", "iOS");
+			caps.setCapability("browserName", "");
+			caps.setCapability("app", "sauce-storage:appzip.zip");
+
+			try {
+				driver = new IOSDriver<WebElement>(new URL(URL), caps);
+				wait = new WebDriverWait(driver, 100);
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 
