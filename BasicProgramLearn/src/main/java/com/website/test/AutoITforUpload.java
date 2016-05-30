@@ -1,7 +1,6 @@
 package com.website.test;
 
 import java.io.IOException;
-
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -64,7 +63,6 @@ public class AutoITforUpload {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		
 	}
 
 	private void waitForElement(WebElement vElement) {
