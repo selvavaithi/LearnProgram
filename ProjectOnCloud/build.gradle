@@ -22,6 +22,8 @@ buildscript {
 dependencies {
 	compile 'org.slf4j:slf4j-api:1.7.14'
 	compile group: 'org.testng', name: 'testng', version: '6.9.10'
+	// http://mvnrepository.com/artifact/ru.yandex.qatools.ashot/ashot
+	compile group: 'ru.yandex.qatools.ashot', name: 'ashot', version: '1.4.12'
 
 	testCompile 'junit:junit:4.12'
 	testCompile "net.serenity-bdd:serenity-core:$serenityversion"

@@ -98,7 +98,7 @@ public class Saurce_Lab_Test {
 			caps.setCapability("appiumVersion", "1.5.2");
 			caps.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 6");
 			caps.setCapability("deviceOrientation", "portrait");
-			caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "7.1");
+			caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.0");
 			caps.setCapability("platformName", "iOS");
 			caps.setCapability("browserName", "");
 			caps.setCapability(MobileCapabilityType.APP, "http://appium.s3.amazonaws.com/TestApp6.0.app.zip");
@@ -115,6 +115,7 @@ public class Saurce_Lab_Test {
 	@Test
 	public void testUIComputation() {
 
+		@SuppressWarnings("unchecked")
 		IOSDriver<WebElement> driver1 = (IOSDriver<WebElement>) driver;
 		// populate text fields with values
 		MobileElement fieldOne = (MobileElement) driver1.findElementByAccessibilityId("TextField1");
