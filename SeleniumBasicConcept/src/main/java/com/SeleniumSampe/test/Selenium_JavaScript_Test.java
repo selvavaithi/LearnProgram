@@ -24,10 +24,16 @@ public class Selenium_JavaScript_Test {
 
 	@BeforeClass
 	public static void setUp() {
+		String browser = "firefox";
 
-		System.setProperty("webdriver.ie.driver", "D://WorkSpace//Driver//IEDriverServer.exe");
-		driver = new InternetExplorerDriver();
-		driver.manage().window().maximize();
+		if (browser.equalsIgnoreCase("firefox")) {
+			driver = new FirefoxDriver();
+		}
+		if (browser.equalsIgnoreCase("ie")) {
+			System.setProperty("webdriver.ie.driver", "D://WorkSpace//Driver//IEDriverServer.exe");
+			driver = new InternetExplorerDriver();
+		}
+		// driver.manage().window().maximize();
 
 		WebDriverWait wait = new WebDriverWait(driver, 30);
 
@@ -39,7 +45,7 @@ public class Selenium_JavaScript_Test {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(ele));
 
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 
 			String workingDir = System.getProperty("user.dir") + "\\needful\\xmlhttp.js";
 			System.out.println(workingDir);
@@ -64,13 +70,13 @@ public class Selenium_JavaScript_Test {
 
 	@AfterClass
 	public static void tearDown() {
-		/*try {
-			Thread.sleep(10000);
+		try {
+			Thread.sleep(3000);
 			driver.quit();
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}*/
+		}
 	}
 
 }
