@@ -2,6 +2,9 @@ Narrative:
 As a Test Automation Engineer
 I want to test upload using AutoIT
 
+Meta:               
+@web @iexplorer
+
 Scenario: empty validate the pch registration page
 Given I type and go to https://blueimp.github.io/jQuery-File-Upload/
 When I click on file upload button
