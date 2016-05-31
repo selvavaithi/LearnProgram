@@ -13,6 +13,6 @@ public class PCHregisterPageTestSuite extends SerenityStories {
 
 	@Override
 	public List<String> storyPaths() {
-		return Arrays.asList("stories/pch.story");
+		return Arrays.asList("stories/AutoIT.story");
 	}
 }

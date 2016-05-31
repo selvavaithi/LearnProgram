@@ -30,9 +30,7 @@ dependencies {
 
 //A SourceSet represents a logical group of Java source and resources
 sourceSets {
-	main {
-		java { exclude '**/Library.java' }
-	}
+	main { java { exclude '**/Library.java' } }
 }
 // show standard out and standard error of the test JVM(s) on the console
 test{ testLogging.showStandardStreams = true }
@@ -41,9 +39,9 @@ test{ testLogging.showStandardStreams = true }
 task myrun(type:Exec) { commandLine 'cmd', '/c', 'gradle clean runAParallelSuite aggregate' }
 
 //Just to run some plain test
-task justruntest(type:Test){
+task justruntest(type: Test){
 	println "Executing a single test"
-	include 'PCHregisterPage.java'
+	include ('**/PCHregisterPage.class')
 	exclude ('**/**TestSuite.java')
 	exclude ('**/**TestSuite2.java')
 }

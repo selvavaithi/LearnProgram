@@ -1,5 +1,7 @@
 package com.serenityjbehave.grid.StepsDefine;
 
+import java.util.Map;
+
 import org.jbehave.core.annotations.Aliases;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
@@ -9,6 +11,7 @@ import org.junit.Assert;
 
 import com.serenityjbehave.grid.Steps.PCHregisterPageSteps;
 
+import net.serenitybdd.core.Serenity;
 import net.thucydides.core.annotations.Steps;
 
 public class PCHregisterPageStepsDefine {
@@ -37,6 +40,10 @@ public class PCHregisterPageStepsDefine {
 
 	@Given("I type and go to $site")
 	public void givenIgoToSite(@Named("site") String site) {
+		Map<String, String> metadata = Serenity.getCurrentSession().getMetaData();
+		for(String s:metadata.values()){
+			System.out.println("my tags "+s);
+		}
 		pchregisterpagesteps.openURL(site);
 	}
 
