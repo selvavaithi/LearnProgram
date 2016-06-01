@@ -1,0 +1,35 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+apply plugin: 'java'
+
+repositories {
+	mavenLocal()
+	jcenter()
+}
+
+buildscript {
+	repositories {
+		mavenLocal()
+		jcenter()
+	}
+	dependencies { classpath("net.serenity-bdd:serenity-gradle-plugin:1.1.34")      }
+}
+
+dependencies {
+	compile 'org.slf4j:slf4j-api:1.7.14'
+
+	compile group: 'net.serenity-bdd', name: 'serenity-core', version: '1.1.34'
+	compile group: 'net.serenity-bdd', name: 'serenity-jbehave', version: '1.12.0'
+	
+	// http://mvnrepository.com/artifact/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider
+	compile group: 'com.fasterxml.jackson.jaxrs', name: 'jackson-jaxrs-json-provider', version: '2.7.4'
+	// http://mvnrepository.com/artifact/com.fasterxml.jackson.jaxrs/jackson-jaxrs-xml-provider
+	compile group: 'com.fasterxml.jackson.jaxrs', name: 'jackson-jaxrs-xml-provider', version: '2.7.4'
+	
+	
+
+	testCompile 'junit:junit:4.12'
+}
