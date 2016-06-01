@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -22,8 +23,11 @@ public class AutoITforUpload {
 
 	@BeforeClass
 	public static void setUp() {
+		
+		DesiredCapabilities desicap = new DesiredCapabilities();
 		System.setProperty("webdriver.chrome.driver", "D:/WorkSpace/Driver/chromedriver.exe");
-		driver = new ChromeDriver();
+		desicap = DesiredCapabilities.chrome();
+		driver = new ChromeDriver(desicap);
 		driver.manage().window().maximize();
 		driver.get("https://blueimp.github.io/jQuery-File-Upload/");
 		waitForElement = new WebDriverWait(driver, 30);
