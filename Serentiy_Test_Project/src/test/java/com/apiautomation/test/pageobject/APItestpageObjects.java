@@ -8,6 +8,8 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.util.Scanner;
 
+import javax.xml.stream.XMLInputFactory;
+
 import com.apiautomation.jacksonjson.GoogleAPIgeocode;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
@@ -22,16 +24,15 @@ public class APItestpageObjects extends MyPageObject {
 
 	public void jacksonJSON_Geocoding(String str) {
 
-
 		// WebElement webElement=getDriver().findElement(By.tagName("pre"));
 		// use Jackson map weather Json response
 		// String weatherJsonString=webElement.getText();
 
 		String url_string = geocodelocation_url + str;
 		System.out.println(geocodelocation_url + str);
+		XMLInputFactory f = XMLInputFactory.newFactory();
 
 		mapper = new ObjectMapper();
-		
 
 		URL firsturl;
 		try {
@@ -39,14 +40,12 @@ public class APItestpageObjects extends MyPageObject {
 
 			URI uri = new URI(firsturl.getProtocol(), firsturl.getUserInfo(), firsturl.getHost(), firsturl.getPort(),
 					firsturl.getPath(), firsturl.getQuery(), firsturl.getRef());
-			url = new URL(geocodelocation_url+URLEncoder.encode(str, "UTF-8"));
-			
+			url = new URL(geocodelocation_url + URLEncoder.encode(str, "UTF-8"));
+
 			Scanner scan = new Scanner(url.openStream());
 			String entireResponse = new String();
 			while (scan.hasNext())
 				entireResponse += scan.nextLine();
-
-			// System.out.println("Response : "+entireResponse);
 
 			scan.close();
 
