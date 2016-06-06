@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlType;
 
+@XmlType(propOrder = { "tokenActivity", "sourceDevice", "amount", "text1", "text2" })
 public class TokenTransaction {
 
 	List<TokenActivity> tokenActivity;

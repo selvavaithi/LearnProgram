@@ -8,7 +8,7 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 
-public class JAXB_XMLtoJavaExample {
+public class JAXB_JavaToXML_Example {
 
 	public static void main(String[] args) {
 
