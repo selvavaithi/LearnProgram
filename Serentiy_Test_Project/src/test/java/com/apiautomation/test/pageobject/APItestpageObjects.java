@@ -7,9 +7,7 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.Scanner;
-
 import javax.xml.stream.XMLInputFactory;
-
 import com.apiautomation.jacksonjson.GoogleAPIgeocode;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
