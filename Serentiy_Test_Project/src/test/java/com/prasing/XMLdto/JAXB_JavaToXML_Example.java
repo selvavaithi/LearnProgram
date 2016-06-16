@@ -79,9 +79,9 @@ public class JAXB_JavaToXML_Example {
 			JAXBContext jaxbContext = JAXBContext.newInstance(CreditToken.class);
 
 			Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
-			jaxbMarshaller.setProperty(Marshaller.JAXB_FRAGMENT, Boolean.FALSE);
-			jaxbMarshaller.setProperty("com.sun.xml.bind.xmlHeaders", "<?xml version=\"1.0\"?>");
 			jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+			// jaxbMarshaller.setProperty(Marshaller.JAXB_ENCODING,
+			// "ISO-8859-1");
 
 			jaxbMarshaller.marshal(creditToken, file);
 			jaxbMarshaller.marshal(creditToken, System.out);
