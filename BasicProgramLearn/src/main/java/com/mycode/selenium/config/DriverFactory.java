@@ -1,8 +1,8 @@
 package com.mycode.selenium.config;
 
-import static org.openqa.selenium.Proxy.ProxyType.MANUAL;
 import static com.mycode.selenium.config.DriverType.FIREFOX;
 import static com.mycode.selenium.config.DriverType.valueOf;
+import static org.openqa.selenium.Proxy.ProxyType.MANUAL;
 
 import java.net.MalformedURLException;
 import java.net.URL;

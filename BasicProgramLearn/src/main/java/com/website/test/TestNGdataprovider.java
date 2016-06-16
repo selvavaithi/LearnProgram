@@ -25,13 +25,11 @@ public class TestNGdataprovider {
 												// Here it will execute two
 												// times
 
-		// ..
-
 		FileInputStream file;
-
-		String filePath = System.getProperty("user.dir") + "\\needful\\Book1.xlsx";
-		System.out.println(filePath);
 		try {
+			String filePath = System.getProperty("user.dir") + "\\needful\\Book1.xlsx";
+			System.out.println(filePath);
+
 			file = new FileInputStream(new File(filePath));
 
 			// Get the workbook instance for XLS file
@@ -94,12 +92,12 @@ public class TestNGdataprovider {
 			file.close();
 			FileOutputStream out = new FileOutputStream(
 					new File(System.getProperty("user.dir") + "\\needful\\output.xlsx"));
+
 			workbook.write(out);
 			workbook.close();
 			out.close();
 
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
@@ -111,6 +109,9 @@ public class TestNGdataprovider {
 	// Here we are calling the Data Provider object with its Name
 	@Test(dataProvider = "Authentication")
 	public void test(String sUsername, String sPassword, String str) {
+
+		// XmlSuite suiteName = context.getCurrentXmlTest().getSuite();
+		// suiteName.getFileName();
 
 		System.out.println(sUsername + " , " + sPassword + " , " + str);
 

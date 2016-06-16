@@ -1,5 +1,6 @@
 package com.profile.test;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
@@ -20,6 +21,10 @@ public class FireFoxProfile {
 		// Test2 is just a profile which has been created
 
 		WebDriver driver = new FirefoxDriver(myprofile);
+
+		String s = (String) ((JavascriptExecutor) driver).executeScript("return navigator.userAgent;");
+		System.out.println("Browser name : " + s);
+
 		driver.get("https://mail.google.com");
 	}
 

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1199" started-at="2016-06-09T13:19:47Z" finished-at="2016-06-09T13:19:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1199" started-at="2016-06-09T13:19:47Z" finished-at="2016-06-09T13:19:49Z">
+      <class name="com.website.test.TestNGdataprovider">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.website.test.TestNGdataprovider@7d417077]" name="test" duration-ms="35" started-at="2016-06-09T18:49:49Z" data-provider="Authentication" finished-at="2016-06-09T18:49:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2000000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.website.test.TestNGdataprovider@7d417077]" name="test" duration-ms="0" started-at="2016-06-09T18:49:49Z" data-provider="Authentication" finished-at="2016-06-09T18:49:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dean]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[420000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.website.test.TestNGdataprovider@7d417077]" name="test" duration-ms="1" started-at="2016-06-09T18:49:49Z" data-provider="Authentication" finished-at="2016-06-09T18:49:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[280000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.website.test.TestNGdataprovider@7d417077]" name="test" duration-ms="0" started-at="2016-06-09T18:49:49Z" data-provider="Authentication" finished-at="2016-06-09T18:49:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6000000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.website.test.TestNGdataprovider@7d417077]" name="test" duration-ms="0" started-at="2016-06-09T18:49:49Z" data-provider="Authentication" finished-at="2016-06-09T18:49:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selva]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.website.test.TestNGdataprovider@7d417077]" name="test" duration-ms="0" started-at="2016-06-09T18:49:49Z" data-provider="Authentication" finished-at="2016-06-09T18:49:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.website.test.TestNGdataprovider@7d417077]" name="test" duration-ms="0" started-at="2016-06-09T18:49:49Z" data-provider="Authentication" finished-at="2016-06-09T18:49:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Saiva]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1200000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.website.test.TestNGdataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
