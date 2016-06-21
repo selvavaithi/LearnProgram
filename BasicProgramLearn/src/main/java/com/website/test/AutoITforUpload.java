@@ -1,7 +1,6 @@
 package com.website.test;
 
 import java.io.IOException;
-
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -15,8 +14,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AutoITforUpload {
-	private static WebDriver driver;
 
+	private static WebDriver driver;
 	private static WebDriverWait waitForElement;
 
 	@FindBy(css = "span.btn.btn-success.fileinput-button")
@@ -24,7 +23,6 @@ public class AutoITforUpload {
 
 	@BeforeClass
 	public static void setUp() {
-		
 		DesiredCapabilities desicap = new DesiredCapabilities();
 		System.setProperty("webdriver.chrome.driver", "D:/WorkSpace/Driver/chromedriver.exe");
 		desicap = DesiredCapabilities.chrome();
@@ -39,18 +37,18 @@ public class AutoITforUpload {
 		// String filepath =
 		// "D:/Mine/GitHub/BasicProgramLearn/AutoItScript/unnamed.png";
 		WebElement btn = driver.findElement(By.cssSelector("span.btn.btn-success.fileinput-button"));
-		
 		String file_dir = System.getProperty("user.dir");
 		String cmd = file_dir + "\\AutoItScript\\unnamed.png";
 
 		System.out.println("File directory is " + file_dir);
 
 		try {
-			//Using ordinary 
+			// Using ordinary
 			Thread.sleep(3000);
 			driver.findElement(By.xpath("//*[@id='fileupload']/div/div[1]/span[1]/input")).sendKeys(cmd);
 
 			waitForElement(btn);
+
 			btn.click();
 			Thread.sleep(3000);
 			System.out.println(file_dir + "/AutoItScript/FileUploadCode.exe");
@@ -73,4 +71,9 @@ public class AutoITforUpload {
 	private void waitForElement(WebElement vElement) {
 		waitForElement.until(ExpectedConditions.visibilityOf(vElement));
 	}
+
+	/*
+	 * private WebElement waitForElement(By by) { return
+	 * waitForElement.until(ExpectedConditions.elementToBeClickable(by)); }
+	 */
 }
