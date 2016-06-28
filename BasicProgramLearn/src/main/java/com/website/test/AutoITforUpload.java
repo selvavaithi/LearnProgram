@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -27,6 +28,7 @@ public class AutoITforUpload {
 		System.setProperty("webdriver.chrome.driver", "D:/WorkSpace/Driver/chromedriver.exe");
 		desicap = DesiredCapabilities.chrome();
 		driver = new ChromeDriver(desicap);
+
 		driver.manage().window().maximize();
 		driver.get("https://blueimp.github.io/jQuery-File-Upload/");
 		waitForElement = new WebDriverWait(driver, 30);
@@ -45,7 +47,9 @@ public class AutoITforUpload {
 		try {
 			// Using ordinary
 			Thread.sleep(3000);
-			driver.findElement(By.xpath("//*[@id='fileupload']/div/div[1]/span[1]/input")).sendKeys(cmd);
+
+			for (int i = 0; i < 3; i++) // multiple times upload
+				driver.findElement(By.xpath("//*[@id='fileupload']/div/div[1]/span[1]/input")).sendKeys(cmd);
 
 			waitForElement(btn);
 
@@ -72,8 +76,8 @@ public class AutoITforUpload {
 		waitForElement.until(ExpectedConditions.visibilityOf(vElement));
 	}
 
-	/*
-	 * private WebElement waitForElement(By by) { return
-	 * waitForElement.until(ExpectedConditions.elementToBeClickable(by)); }
-	 */
+	private WebElement waitForElement(By by) {
+		return waitForElement.until(ExpectedConditions.presenceOfElementLocated(by));
+	}
+
 }

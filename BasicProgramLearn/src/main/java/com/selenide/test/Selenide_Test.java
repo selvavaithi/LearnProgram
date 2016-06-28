@@ -2,15 +2,16 @@ package com.selenide.test;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.refresh;
+
+import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import static com.codeborne.selenide.Selenide.open;
-import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.Selectors.ByText;
+import static com.codeborne.selenide.WebDriverRunner.*;
 import com.codeborne.selenide.SelenideElement;
 import com.codeborne.selenide.WebDriverRunner;
 
@@ -21,9 +22,9 @@ public class Selenide_Test {
 
 	@BeforeClass
 	public static void setUp() {
-		
+
 		System.setProperty("webdriver.chrome.driver", "D:/WorkSpace/Driver/chromedriver.exe");
-		//Configuration.browser = "chrome";
+		// Configuration.browser = "chrome";
 		driver = new ChromeDriver();
 		WebDriverRunner.setWebDriver(driver);
 		baseUrl = "http://demoqa.com/";
@@ -46,14 +47,22 @@ public class Selenide_Test {
 		// open(baseUrl);
 		SelenideElement stest = $(By.linkText("About us")).waitUntil(visible, 10000);
 		stest.click();
-		 System.out.println($(By.linkText("About us")));
-		
+
+		System.out.println($(By.linkText("About us")).waitUntil(visible, 10000));
+		refresh();
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+
+	}
+
+	@AfterClass
+	public static void tearDown() {
+		clearBrowserCache();
+		closeWebDriver();
 	}
 
 }
