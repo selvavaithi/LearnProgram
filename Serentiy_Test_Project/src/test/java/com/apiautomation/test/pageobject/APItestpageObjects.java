@@ -28,7 +28,7 @@ public class APItestpageObjects extends MyPageObject {
 
 		String url_string = geocodelocation_url + str;
 		System.out.println(geocodelocation_url + str);
-		XMLInputFactory f = XMLInputFactory.newFactory();
+		//XMLInputFactory f = XMLInputFactory.newFactory();
 
 		mapper = new ObjectMapper();
 
