@@ -1,16 +1,12 @@
 package com.prasing.jacksonJSON;
 
 public class Source {
+
 	private String TrackingToken;
-
 	private String OriginatingUrl;
-
 	private String ForeignSource;
-
 	private String MediaChannel;
-
 	private String SourceCode;
-
 	private String EmailSubCode;
 
 	public String getTrackingToken() {

@@ -2,6 +2,18 @@ package com.prasing.jacksonJSON;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.http.HttpEntity;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.util.EntityUtils;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.databind.JsonMappingException;
@@ -46,25 +58,37 @@ public class Jackson_JSONexample {
 		try {
 
 			File jsonFile = new File(System.getProperty("user.dir") + "\\json_javatojson.json");
-
+			System.out.println(System.getProperty("user.dir") + "\\json_javatojson.json");
 			mapper.writeValue(jsonFile, json_jackson);
 
 			System.out.println(mapper.writeValueAsString(json_jackson));
 
+			CloseableHttpClient httpclient = HttpClients.createDefault();
+			HttpPost httpPost = new HttpPost("https://softcrylic.greythr.com/login.do");
+			List<NameValuePair> nvps = new ArrayList<NameValuePair>();
+			nvps.add(new BasicNameValuePair("username", "SI/2016/388"));
+			nvps.add(new BasicNameValuePair("password", "Welcome1!2@"));
+			UrlEncodedFormEntity urlencode = new UrlEncodedFormEntity(nvps);
+			httpPost.setEntity(urlencode);
+			System.out.println(urlencode);
+			CloseableHttpResponse response2 = httpclient.execute(httpPost);
+
+			try {
+				System.out.println(response2.getStatusLine());
+				HttpEntity entity2 = response2.getEntity();
+				// do something useful with the response body
+				// and ensure it is fully consumed
+				EntityUtils.consume(entity2);
+			} finally {
+				response2.close();
+			}
+
 		} catch (JsonGenerationException ex) {
-
 			ex.printStackTrace();
-
 		} catch (JsonMappingException ex) {
-
 			ex.printStackTrace();
-
 		} catch (IOException ex) {
-
 			ex.printStackTrace();
-
 		}
-
 	}
-
 }
