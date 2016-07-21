@@ -24,14 +24,12 @@ public class MSSQLtest {
 	@BeforeClass
 	public static void setUp() {
 		String classname = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-
 		try {
 			// Class..
 			Class.forName(classname);
 
 			// Connection
 			con = DriverManager.getConnection(url);
-			
 			executeStoredProcedure(con);
 
 			// Statment
@@ -81,10 +79,10 @@ public class MSSQLtest {
 	public static void executeStoredProcedure(Connection con) {
 		try {
 			CallableStatement cstmt = con.prepareCall("{call dbo.getIdbasedLottoDataBall(?, ?)}");
-			cstmt.setInt(1, 5);  
-		      cstmt.registerOutParameter(2, java.sql.Types.INTEGER);  
-		      cstmt.execute();  
-		      System.out.println("MANAGER ID: " + cstmt.getInt(2));  
+			cstmt.setInt(1, 5);
+			cstmt.registerOutParameter(2, java.sql.Types.INTEGER);
+			cstmt.execute();
+			System.out.println("MANAGER ID: " + cstmt.getInt(2));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
