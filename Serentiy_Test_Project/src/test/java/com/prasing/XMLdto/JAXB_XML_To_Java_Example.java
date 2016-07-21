@@ -21,7 +21,7 @@ public class JAXB_XML_to_Java_Example {
 			File file = new File(System.getProperty("user.dir") + "\\JAXB_XMLtoJavaExample.xml");
 			FileInputStream excelFile = new FileInputStream(
 					new File(System.getProperty("user.dir") + "\\Needed\\Book1.xlsx"));
-
+System.out.println(System.getProperty("user.dir") + "\\JAXB_XMLtoJavaExample.xml");
 			JAXBContext jaxbContext = JAXBContext.newInstance(CreditToken.class);
 			Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
 

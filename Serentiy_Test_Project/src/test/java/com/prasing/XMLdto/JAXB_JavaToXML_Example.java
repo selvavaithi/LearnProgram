@@ -1,6 +1,7 @@
 package com.prasing.XMLdto;
 
 import java.io.File;
+import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -83,8 +84,11 @@ public class JAXB_JavaToXML_Example {
 			// jaxbMarshaller.setProperty(Marshaller.JAXB_ENCODING,
 			// "ISO-8859-1");
 
+			StringWriter sw = new StringWriter();
 			jaxbMarshaller.marshal(creditToken, file);
-			jaxbMarshaller.marshal(creditToken, System.out);
+			jaxbMarshaller.marshal(creditToken, sw);
+
+			System.out.println(sw);
 
 		} catch (JAXBException e) {
 			e.printStackTrace();
