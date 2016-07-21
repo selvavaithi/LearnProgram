@@ -22,7 +22,7 @@ public class JAXBExample {
 		// output pretty printed
 		jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
-		jaxbMarshaller.marshal(customer, file);
+		//jaxbMarshaller.marshal(customer, file);
 		jaxbMarshaller.marshal(customer, System.out);
 
 	      } catch (JAXBException e) {
