@@ -10,6 +10,8 @@ import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -18,12 +20,9 @@ public class TestNGdataprovider {
 	static Object[][] myObject = null;
 
 	@DataProvider(name = "Authentication")
-	public static Object[][] credentials() { // The number of times data is
-												// repeated, test will be
-												// executed the same no. of
-												// times
-												// Here it will execute two
-												// times
+	public static Object[][] credentials() {
+		// The number of times data is repeated, test will be executed the same
+		// no. of times Here it will execute two times
 
 		FileInputStream file;
 		try {
@@ -42,10 +41,11 @@ public class TestNGdataprovider {
 			Iterator<Row> rowIterator = sheet.iterator();
 
 			Row row = rowIterator.next();
-			int noOfrepeat = sheet.getLastRowNum();
+			int noOfrepeat = sheet.getLastRowNum(); // take the no of rows
 			System.out.println("Test Repeat time " + noOfrepeat);
 
-			short noOfData = row.getLastCellNum();
+			short noOfData = row.getLastCellNum(); // It will take the values
+													// from cell in a row
 			System.out.println("No of Test Data " + noOfData);
 
 			myObject = new Object[noOfrepeat][noOfData];
@@ -106,6 +106,11 @@ public class TestNGdataprovider {
 		return myObject;
 	}
 
+	@BeforeClass
+	public static void startUp() {
+		System.out.println("Before this class begin");
+	}
+
 	// Here we are calling the Data Provider object with its Name
 	@Test(dataProvider = "Authentication")
 	public void test(String sUsername, String sPassword, String str) {
@@ -115,6 +120,11 @@ public class TestNGdataprovider {
 
 		System.out.println(sUsername + " , " + sPassword + " , " + str);
 
+	}
+
+	@AfterClass
+	public static void tearDown() {
+		System.out.println("System ends here");
 	}
 }
 
