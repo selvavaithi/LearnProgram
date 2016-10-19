@@ -94,4 +94,14 @@ public class PCHregisterPageStepsDefine {
 			e.printStackTrace();
 		}
 	}
+	
+	@Given("I print this $symbol") 
+	public void aStock(String symbol) {
+		System.out.println("Symbol: "+symbol);
+	}
+	
+	@Given("Verify the output $alternate_symbol") 
+	public void iVerify(String alternate_symbol) {
+		System.out.println("Output is "+alternate_symbol);
+	}
 }
