@@ -12,3 +12,11 @@ Then I wait for 5 seconds
 And I apply AutoIT to it
 And Verify the file is uploaded
 Then I wait for 5 seconds
+
+Scenario: Trying to Load parameters from an external resource
+
+Given I print this <symbol> 
+And Verify the output <alternate_symbol>
+
+Examples:
+stories/trades.table
