@@ -1,0 +1,249 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Appium_Grid_Serenity 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ GridSerenityProcess ---
+[INFO] Deleting D:\Mine\GitHub\Appium_Grid_Serenity\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ GridSerenityProcess ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Mine\GitHub\Appium_Grid_Serenity\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ GridSerenityProcess ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\Mine\GitHub\Appium_Grid_Serenity\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ GridSerenityProcess ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ GridSerenityProcess ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to D:\Mine\GitHub\Appium_Grid_Serenity\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ GridSerenityProcess ---
+[INFO] Surefire report directory: D:\Mine\GitHub\Appium_Grid_Serenity\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.sampleapp.test.SampleAppTest
+Processing system properties {}
+Using controls EmbedderControls[batch=false,skip=false,generateViewAfterStories=true,ignoreFailureInStories=true,ignoreFailureInView=true,verboseFailures=false,verboseFiltering=false,storyTimeouts=300,threads=1,failOnStoryTimeout=false]
+
+(BeforeStories)
+
+Running story Stories/SampleAppStories/simpleapp.story
+
+(Stories/SampleAppStories/simpleapp.story)
+Scenario: Home page automation
+Using timeout for story simpleapp.story of 300 secs.
+Button status: true
+Given I verify the home page of the app
+When I click on Start Registration button
+Then I verify the registration page of the app
+
+Scenario: Fill the registration page
+Button status: true
+Given I verify the home page of the app
+When I click on Start Registration button
+Then I fill the registration page detail
+
+
+Failed to run story Stories/SampleAppStories/simpleapp.story
+org.openqa.selenium.WebDriverException: Not yet implemented. Please help us: http://appium.io/get-involved.html (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'SCI-DT-161', ip: '192.168.56.1', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0-ea'
+Session ID: cfb34c6b-87e5-43aa-a860-74017a76ec7d
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=D:/WorkSpace/Driver/selendroid-test-app-0.17.0.apk, javascriptEnabled=true, appActivity=io.selendroid.testapp.HomeScreenActivity, browserName=Android, networkConnectionEnabled=true, desired={app=D:/WorkSpace/Driver/selendroid-test-app-0.17.0.apk, deviceName=4d00af03525c80a1, platformName=Android, appActivity=io.selendroid.testapp.HomeScreenActivity, appPackage=io.selendroid.testapp}, locationContextEnabled=false, appPackage=io.selendroid.testapp, platformVersion=5.0.2, databaseEnabled=false, platformName=Android, deviceName=4d00af03525c80a1, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:414)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:206)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)
+	at net.thucydides.core.webdriver.WebDriverFacade.close(WebDriverFacade.java:280)
+	at net.serenitybdd.jbehave.SerenityReporter.closeBrowsersForThisStory(SerenityReporter.java:511)
+	at net.serenitybdd.jbehave.SerenityReporter.afterStory(SerenityReporter.java:497)
+	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:49)
+	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterStory(ConcurrentStoryReporter.java:122)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:792)
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:724)
+
+(AfterStories)
+
+Generating reports view to 'D:\Mine\GitHub\Appium_Grid_Serenity\target\jbehave' using formats '[stats, console, html, xml, serenityreporter, junitscenarioreporter]' and view properties '{decorateNonHtml=true}'
+Reports view generated with 2 stories (of which 0 pending) containing 2 scenarios (of which 0 pending)
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 38.752 sec
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ GridSerenityProcess ---
+[INFO] Building jar: D:\Mine\GitHub\Appium_Grid_Serenity\target\GridSerenityProcess-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-failsafe-plugin:2.19.1:integration-test (default) @ GridSerenityProcess ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.sampleapp.test.SampleAppTest
+Processing system properties {}
+Using controls EmbedderControls[batch=false,skip=false,generateViewAfterStories=true,ignoreFailureInStories=true,ignoreFailureInView=true,verboseFailures=false,verboseFiltering=false,storyTimeouts=300,threads=1,failOnStoryTimeout=false]
+
+(BeforeStories)
+
+Running story Stories/SampleAppStories/simpleapp.story
+
+(Stories/SampleAppStories/simpleapp.story)
+Using timeout for story simpleapp.story of 300 secs.
+Scenario: Home page automation
+Given I verify the home page of the app (FAILED)
+(net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class io.appium.java_client.AppiumDriver)
+When I click on Start Registration button (NOT PERFORMED)
+Then I verify the registration page of the app (NOT PERFORMED)
+
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class io.appium.java_client.AppiumDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:131)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:243)
+	at com.sampleapp.test.pageobject.SampleAppTest_PageObject.verify_App_HomePage(SampleAppTest_PageObject.java:56)
+	at com.sampleapp.test.stepsmodule.SampleAppTest_StepsModule.verifyAppHomePage(SampleAppTest_StepsModule.java:15)
+	at com.sampleapp.test.stepsmodule.SampleAppTest_StepsModule$$EnhancerByCGLIB$$6bf7d348.CGLIB$verifyAppHomePage$0(<generated>)
+	at com.sampleapp.test.stepsmodule.SampleAppTest_StepsModule$$EnhancerByCGLIB$$6bf7d348$$FastClassByCGLIB$$ec6cf02c.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:348)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:333)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:308)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:130)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:57)
+	at com.sampleapp.test.stepsmodule.SampleAppTest_StepsModule$$EnhancerByCGLIB$$6bf7d348.verifyAppHomePage(<generated>)
+	at com.sampleapp.test.stepsdefine.SampleAppTestStepsDefine.givenIVerifyTheHomePageOfTheApp(SampleAppTestStepsDefine.java:22)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...
+Scenario: Fill the registration page
+Given I verify the home page of the app (FAILED)
+(net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class io.appium.java_client.AppiumDriver)
+When I click on Start Registration button (NOT PERFORMED)
+Then I fill the registration page detail (NOT PERFORMED)
+
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class io.appium.java_client.AppiumDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:131)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:243)
+	at com.sampleapp.test.pageobject.SampleAppTest_PageObject.verify_App_HomePage(SampleAppTest_PageObject.java:56)
+	at com.sampleapp.test.stepsmodule.SampleAppTest_StepsModule.verifyAppHomePage(SampleAppTest_StepsModule.java:15)
+	at com.sampleapp.test.stepsmodule.SampleAppTest_StepsModule$$EnhancerByCGLIB$$6bf7d348.CGLIB$verifyAppHomePage$0(<generated>)
+	at com.sampleapp.test.stepsmodule.SampleAppTest_StepsModule$$EnhancerByCGLIB$$6bf7d348$$FastClassByCGLIB$$ec6cf02c.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:348)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:333)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:308)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:130)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:57)
+	at com.sampleapp.test.stepsmodule.SampleAppTest_StepsModule$$EnhancerByCGLIB$$6bf7d348.verifyAppHomePage(<generated>)
+	at com.sampleapp.test.stepsdefine.SampleAppTestStepsDefine.givenIVerifyTheHomePageOfTheApp(SampleAppTestStepsDefine.java:22)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...
+
+
+(AfterStories)
+
+Failed to run batch 
+org.jbehave.core.embedder.PerformableTree$SomethingHappened@3e7f4ba1: net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class io.appium.java_client.AppiumDriver
+Generating reports view to 'D:\Mine\GitHub\Appium_Grid_Serenity\target\jbehave' using formats '[stats, console, html, xml, serenityreporter, junitscenarioreporter]' and view properties '{decorateNonHtml=true}'
+Reports view generated with 2 stories (of which 0 pending) containing 2 scenarios (of which 0 pending)
+Failures in reports view: 2 scenarios failed
+Tests run: 11, Failures: 3, Errors: 2, Skipped: 4, Time elapsed: 2.364 sec <<< FAILURE! - in com.sampleapp.test.SampleAppTest
+Given I verify the home page of the app(com.sampleapp.test.stepsdefine.SampleAppTestStepsDefine)  Time elapsed: 0.195 sec  <<< ERROR!
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class io.appium.java_client.AppiumDriver
+	at com.sampleapp.test.stepsdefine.SampleAppTestStepsDefine.givenIVerifyTheHomePageOfTheApp(SampleAppTestStepsDefine.java:22)
+Caused by: net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class io.appium.java_client.AppiumDriver
+	at com.sampleapp.test.stepsdefine.SampleAppTestStepsDefine.givenIVerifyTheHomePageOfTheApp(SampleAppTestStepsDefine.java:22)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'SCI-DT-161', ip: '192.168.56.1', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0-ea'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at com.sampleapp.test.stepsdefine.SampleAppTestStepsDefine.givenIVerifyTheHomePageOfTheApp(SampleAppTestStepsDefine.java:22)
+
+Scenario: Home page automation  Time elapsed: 0.199 sec  <<< FAILURE!
+java.lang.AssertionError: scenario failed!
+
+Given I verify the home page of the app?(com.sampleapp.test.stepsdefine.SampleAppTestStepsDefine)  Time elapsed: 0.054 sec  <<< ERROR!
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class io.appium.java_client.AppiumDriver
+	at com.sampleapp.test.stepsdefine.SampleAppTestStepsDefine.givenIVerifyTheHomePageOfTheApp(SampleAppTestStepsDefine.java:22)
+Caused by: net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class io.appium.java_client.AppiumDriver
+	at com.sampleapp.test.stepsdefine.SampleAppTestStepsDefine.givenIVerifyTheHomePageOfTheApp(SampleAppTestStepsDefine.java:22)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'SCI-DT-161', ip: '192.168.56.1', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0-ea'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at com.sampleapp.test.stepsdefine.SampleAppTestStepsDefine.givenIVerifyTheHomePageOfTheApp(SampleAppTestStepsDefine.java:22)
+
+Scenario: Fill the registration page  Time elapsed: 0.054 sec  <<< FAILURE!
+java.lang.AssertionError: scenario failed!
+
+simpleapp.story  Time elapsed: 0.058 sec  <<< FAILURE!
+java.lang.AssertionError: story failed!
+
+
+Results :
+
+Failed tests: 
+  scenario failed!
+  scenario failed!
+  story failed!
+Tests in error: 
+  SampleAppTestStepsDefine.givenIVerifyTheHomePageOfTheApp:22 » UnsupportedDriver
+  SampleAppTestStepsDefine.givenIVerifyTheHomePageOfTheApp:22 » UnsupportedDriver
+
+Tests run: 11, Failures: 3, Errors: 2, Skipped: 4
+
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent! The file encoding for reports output files should be provided by the POM property ${project.reporting.outputEncoding}.
+[INFO] 
+[INFO] --- maven-failsafe-plugin:2.19.1:verify (default) @ GridSerenityProcess ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent! The file encoding for reports output files should be provided by the POM property ${project.reporting.outputEncoding}.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 44.619 s
+[INFO] Finished at: 2016-05-20T12:12:09+05:30
+[INFO] Final Memory: 32M/278M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-failsafe-plugin:2.19.1:verify (default) on project GridSerenityProcess: There are test failures.
+[ERROR] 
+[ERROR] Please refer to D:\Mine\GitHub\Appium_Grid_Serenity\target\failsafe-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

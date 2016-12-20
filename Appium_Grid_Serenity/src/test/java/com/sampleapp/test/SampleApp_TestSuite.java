@@ -2,7 +2,6 @@ package com.sampleapp.test;
 
 import java.util.Arrays;
 import java.util.List;
-
 import net.serenitybdd.jbehave.SerenityStories;
 import net.thucydides.core.ThucydidesSystemProperty;
 
