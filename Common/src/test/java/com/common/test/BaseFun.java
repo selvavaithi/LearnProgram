@@ -1,5 +1,9 @@
 package com.common.test;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
 import javax.swing.JOptionPane;
 
 
@@ -35,8 +39,19 @@ public class BaseFun extends Base {
 				JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
 		System.out.println("Random name: "+getName());
 		
+		CalendarFun();
+		
 	}
 	
+	private static void CalendarFun() {
+		Calendar cal = Calendar.getInstance();
+		SimpleDateFormat formate = new SimpleDateFormat("MM/dd/yyyy");
+		cal.set(Calendar.YEAR, cal.get(Calendar.YEAR)-14);
+		Date myDate = cal.getTime();
+		System.out.println(formate.format(myDate));
+		
+	}
+
 	public static String getName() {
  		return firstCharUppercase((org.apache.commons.lang3.RandomStringUtils.randomAlphabetic(15)).replaceAll("f", "z").replaceAll("F", "Z"));
 	
