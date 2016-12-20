@@ -7,22 +7,13 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
 import javax.swing.JOptionPane;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.apache.poi.ss.usermodel.DataFormatter;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.XSSFCell;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -240,37 +231,6 @@ public class PCHnotepadeURL {
 		getElement(By.id("txtPassword")).clear();
 		getElement(By.id("txtPassword")).sendKeys("tester");
 		getElement(By.id("btnSignIn")).click();
-
-		try {
-			List<String> cellValue = new ArrayList<String>();
-			XSSFWorkbook wb = new XSSFWorkbook(new File("MyExcel.xls"));
-			XSSFSheet sheet = wb.getSheetAt(0);
-			DataFormatter formatter = new DataFormatter();
-			for (Iterator<Row> iterator = sheet.rowIterator(); iterator.hasNext();) {
-				XSSFRow row = (XSSFRow) iterator.next();
-				for (int i = 0; i < row.getPhysicalNumberOfCells(); i++) {
-					XSSFCell cell = row.getCell(i);
-					cellValue.add(formatter.formatCellValue(cell));
-				}
-
-				List<WebElement> dropdownElements = driver
-						.findElements(By.cssSelector("element for the dropdown *you can use any*"));
-
-				for (WebElement element : dropdownElements) {
-
-					if ("text the need to compage".equalsIgnoreCase(element.getText())) {
-
-						// do anything you want
-					}
-				}
-			}
-		} catch (InvalidFormatException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 
 	}
 

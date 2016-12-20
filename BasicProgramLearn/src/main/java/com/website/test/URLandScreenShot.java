@@ -51,6 +51,7 @@ public class URLandScreenShot {
 			System.out.println("Current Date: " + timeString);
 			File file = new File("D://VinothImage//" + dateString + "//" + timeString + "//");
 			file.mkdirs();
+
 			// Creating a dialog box for choosing the browser
 			String[] choices = { "FIREFOX", "CHROME", "IE" };
 			WEB_BROWSER = (String) JOptionPane.showInputDialog(null, "Choose now...", "The Choice of a Lifetime",
@@ -69,6 +70,7 @@ public class URLandScreenShot {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
+
 		}
 
 		if (WEB_BROWSER.equalsIgnoreCase("firefox")) {
@@ -106,8 +108,8 @@ public class URLandScreenShot {
 			System.out.println(i + ") " + url);
 			// checkButtonAndClick();
 
-			JavaOptionAlert(); // just waiting for the manuel operation to
-								// finish
+			JavaOptionAlert("Finishe the manuel handle Please", "Manuel handle"); 
+			// just waiting for the manuel operation to finish
 			/*
 			 * return fSubmitMe(); WebElement bodyTag =
 			 * driver.findElement(By.cssSelector(bodyTagcss));
@@ -121,18 +123,17 @@ public class URLandScreenShot {
 			// if(driver.getPageSource().contains(s))
 
 			TakeScreenShot(url, i);
-
 			Thread.sleep(1000);
+
 			// removing the confirmation alert for page movement
 			((JavascriptExecutor) driver).executeScript("window.onbeforeunload = function(e){};");
 			Thread.sleep(1000);
 		}
 	}
 
-	private void JavaOptionAlert() {
+	private void JavaOptionAlert(String message, String title) {
 		int dialogButton = JOptionPane.YES_OPTION;
-		int dialogResult = JOptionPane.showConfirmDialog(null, "Finishe the manuel handle Please", "Manuel handle",
-				dialogButton);
+		int dialogResult = JOptionPane.showConfirmDialog(null, message, title, dialogButton);
 
 		if (dialogResult == 0) {
 			System.out.println("Yes option - Manuel handle is finished");
@@ -154,16 +155,23 @@ public class URLandScreenShot {
 			if (liList.size() > 0) {
 
 				for (int j = 0; j < liList.size() - 2; j++) {
-					getElement(By.id("mpPageNavTop_" + j));
-					Thread.sleep(3000);
-					File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-					filename = "D://VinothImage//" + dateString + "//" + timeString + "//" + imgName[imgName.length - 2]
-							+ "_" + imgName[imgName.length - 1] + "_tab_" + (j + 1) + ".png";
-					System.out.println("Saved the File as " + filename);
-					FileUtils.copyFile(scrFile, new File(filename));
+					try {
+						getElement(By.id("mpPageNavTop_" + j));
+						Thread.sleep(3000);
+						
+						File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+						filename = "D://VinothImage//" + dateString + "//" + timeString + "//"
+								+ imgName[imgName.length - 2] + "_" + imgName[imgName.length - 1] + "_tab_" + (j + 1)
+								+ ".png";
+						System.out.println("Saved the File as " + filename);
+						FileUtils.copyFile(scrFile, new File(filename));
 
-					getElement(By.cssSelector("#mpNavNext > a")).click();
-					// clicking the CONTINUE button in the tab
+						getElement(By.cssSelector("#mpNavNext > a")).click();
+						// clicking the CONTINUE button in the tab
+					} catch (Exception e) {
+						JavaOptionAlert("Something went wrong in Screenshot", "Ouch!! Manuel handle Please");
+						e.printStackTrace();
+					}
 				}
 			}
 
@@ -176,6 +184,7 @@ public class URLandScreenShot {
 			 */
 
 		} catch (Exception e) {
+			JavaOptionAlert("Somthing Went Wrong Please handle Manuelly", "Oops!! Manuel handle Please");
 			e.printStackTrace();
 		}
 
