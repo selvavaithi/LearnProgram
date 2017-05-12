@@ -16,33 +16,28 @@ public class LibraryTest {
 	public static void main(String[] args) {
 
 		ThisIsCommonTest cmm = new ThisIsCommonTest();
-		
-		String strlastruntime ="16/06/2016 9:17:00 AM",dateFormat ="MM/dd/yyyy hh:mm:ss a";
-		
-		try
-        {
-            strlastruntime = strlastruntime.trim();
-            System.out.println("strlastruntime = "+strlastruntime+" dateFormat = "+dateFormat);
-            java.util.Locale l = java.util.Locale.UK;
-            java.text.SimpleDateFormat formatter = new java.text.SimpleDateFormat(dateFormat,l);
-            //System.out.println("formatter = "+formatter);
-            java.util.Date date = formatter.parse( strlastruntime );
-            System.out.println("date = "+date);
-            long time = date.getTime();
-            System.out.println("time = "+time);
 
-        }
-        catch(java.text.ParseException ee)
-        {
-            ee.printStackTrace();
-            System.out.println(ee);
-        }
-		
+		String strlastruntime = "16/06/2016 9:17:00 AM", dateFormat = "MM/dd/yyyy hh:mm:ss a";
+
+		try {
+			strlastruntime = strlastruntime.trim();
+			System.out.println("strlastruntime = " + strlastruntime + " dateFormat = " + dateFormat);
+			java.util.Locale l = java.util.Locale.UK;
+			java.text.SimpleDateFormat formatter = new java.text.SimpleDateFormat(dateFormat, l);
+			// System.out.println("formatter = "+formatter);
+			java.util.Date date = formatter.parse(strlastruntime);
+			System.out.println("date = " + date);
+			long time = date.getTime();
+			System.out.println("time = " + time);
+		} catch (java.text.ParseException ee) {
+			ee.printStackTrace();
+			System.out.println(ee);
+		}
+
 		cmm.setStr("Testing");
+		System.out.println(cmm.needfullfilepath+" --- "+cmm.getStr());
 
-		System.out.println(cmm.needfulfilepath);
-
-		ReadXLSXfile.readfile(cmm.needfulfilepath, 0);
+		ReadXLSXfile.readfile("D:\\Mine\\GitHub\\Common\\Needfulfiles\\DataSet.xlsx", 0);
 		int dataRow, dataColumn;
 		try {
 			XSSFWorkbook wb = new XSSFWorkbook(new File("D:\\Mine\\GitHub\\Common\\Needfulfiles\\DataSet.xlsx"));
@@ -52,7 +47,6 @@ public class LibraryTest {
 			dataRow = 0;
 			while (rowIt.hasNext()) {
 				Row row = rowIt.next();
-
 				Iterator<Cell> cellIt = row.cellIterator();
 				dataColumn = 0;
 				while (cellIt.hasNext()) {
@@ -75,7 +69,6 @@ public class LibraryTest {
 					System.out.println(cell.getCellType() + " : " + strt + "[" + dataRow + "][" + dataColumn + "]");
 					dataColumn++;
 				}
-
 				dataRow++;
 			}
 			wb.close();
@@ -86,6 +79,5 @@ public class LibraryTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
 	}
 }
