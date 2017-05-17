@@ -64,10 +64,10 @@ public class Jackson_JSONexample {
 			System.out.println(mapper.writeValueAsString(json_jackson));
 
 			CloseableHttpClient httpclient = HttpClients.createDefault();
-			HttpPost httpPost = new HttpPost("https://softcrylic.greythr.com/login.do");
+			HttpPost httpPost = new HttpPost("PAST YOUR URL HERE");
 			List<NameValuePair> nvps = new ArrayList<NameValuePair>();
-			nvps.add(new BasicNameValuePair("username", "SI/2016/388"));
-			nvps.add(new BasicNameValuePair("password", "Welcome1!2@"));
+			nvps.add(new BasicNameValuePair("username", "USERNAME HERE"));
+			nvps.add(new BasicNameValuePair("password", "PASSWORD HERE"));
 			UrlEncodedFormEntity urlencode = new UrlEncodedFormEntity(nvps);
 			httpPost.setEntity(urlencode);
 			System.out.println(urlencode);
